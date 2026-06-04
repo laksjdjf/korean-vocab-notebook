@@ -3,6 +3,10 @@
 韓国語の単語を覚えるためのWebアプリ。
 一覧表示（暗記モード）、4択クイズ、単語編集、音声読み上げ、PWA対応。
 
+## 公開URL
+
+https://laksjdjf.github.io/korean-vocab-notebook/
+
 ## ローカル起動
 
 ```bash
@@ -19,37 +23,28 @@ npm run preview   # 確認
 
 ## GitHub Pagesへのデプロイ
 
-1. GitHubでリポジトリを作る（例：`korean-vocab-notebook`）
-2. ローカルで:
+`main` ブランチへ push すると、GitHub Actions が `npm run build` を実行し、GitHub Pagesへデプロイします。
 
-   ```bash
-   git init
-   git add .
-   git commit -m "init"
-   git branch -M main
-   git remote add origin https://github.com/<USER>/<REPO>.git
-   git push -u origin main
-   ```
-
-3. デプロイ（`gh-pages` ブランチに `dist/` を push）:
-
-   ```bash
-   npm run build
-   npm run deploy
-   ```
-
-4. リポジトリの Settings → Pages で、Source = `gh-pages` ブランチ / `/ (root)` を選ぶ。
-
-`vite.config.ts` の `base: './'` により、リポジトリ名がサブパスでも動く設定です。
+リポジトリの Settings → Pages で Source を `GitHub Actions` に設定します。
+`vite.config.ts` の `base: './'` により、リポジトリ名がサブパスでも動きます。
 
 ## データ
 
 すべてブラウザの localStorage に保存されます。初回起動時にAI生成のスターター646語が投入されます。
 編集画面から JSON エクスポート/インポート、スターターへのリセットが可能。
 
+## 免責
+
 このアプリと単語データは、特定の公式試験・公式教材・出版社とは関係ありません。
+スターター単語データはAI生成であり、誤りや不自然な表現を含む可能性があります。
+
+このプロジェクトは Claude / Codex を使った Vibe coding により作成しました。
 
 ## 音声
 
 ブラウザ標準の Web Speech API を使用。Windows の場合 `Microsoft Heami` (女性) が自動選択されます。
 将来 AI 音声に差し替えるときは `src/composables/useSpeech.ts` の `speak()` を差し替えるだけ。
+
+## License
+
+MIT
