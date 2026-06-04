@@ -7,6 +7,7 @@ export type Word = {
   category: string
   example?: string
   exampleTranslation?: string
+  hanja?: string
   importance: Importance
   createdAt: number
   updatedAt: number

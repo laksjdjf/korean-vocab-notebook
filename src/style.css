@@ -234,6 +234,14 @@ table.wordtable th {
   color: var(--accent);
 }
 
+.hanja-hint {
+  margin-top: 2px;
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: .15em;
+  font-family: 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', serif;
+}
+
 /* 赤シート機能 */
 .redactable {
   display: inline-block;

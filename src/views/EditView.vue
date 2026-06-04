@@ -16,6 +16,7 @@ const form = ref({
   category: '',
   example: '',
   exampleTranslation: '',
+  hanja: '',
   importance: 2 as Importance,
 })
 
@@ -26,6 +27,7 @@ function resetForm() {
     category: '',
     example: '',
     exampleTranslation: '',
+    hanja: '',
     importance: 2,
   }
   editingId.value = null
@@ -39,6 +41,7 @@ function startEdit(w: Word) {
     category: w.category,
     example: w.example ?? '',
     exampleTranslation: w.exampleTranslation ?? '',
+    hanja: w.hanja ?? '',
     importance: w.importance,
   }
   window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -56,6 +59,7 @@ function submit() {
     category: f.category.trim(),
     example: f.example.trim() || undefined,
     exampleTranslation: f.exampleTranslation.trim() || undefined,
+    hanja: f.hanja.trim() || undefined,
     importance: f.importance,
   }
   if (editingId.value) {
@@ -133,6 +137,10 @@ function onImportFile(e: Event) {
             <option :value="2">★★ 重要</option>
             <option :value="1">★ 基本</option>
           </select>
+        </label>
+        <label class="full">
+          漢字語 (任意・Sino-Korean のみ)
+          <input v-model="form.hanja" placeholder="例: 가족 → 家族 / 회사 → 会社 (固有語・外来語は空欄)" />
         </label>
         <label class="full">
           例文(韓国語)

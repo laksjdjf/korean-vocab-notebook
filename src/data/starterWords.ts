@@ -7,6 +7,7 @@ export type StarterWord = {
   category: string
   example?: string
   exampleTranslation?: string
+  hanja?: string
   importance: Importance
 }
 

@@ -98,6 +98,10 @@ const filtered = computed(() => {
 
 const anyRedact = computed(() => settings.value.redactedColumns.length > 0)
 
+const hanjaHidden = computed(
+  () => isRedacted('word') || isRedacted('meaning'),
+)
+
 function stars(n: Importance) {
   return '★'.repeat(n) + '☆'.repeat(3 - n)
 }
@@ -187,6 +191,11 @@ function stars(n: Importance) {
                 title="発音を再生"
                 @click.stop="speak(w.word)"
               >♪</button>
+              <div
+                v-if="w.hanja && (!hanjaHidden || isRevealed(w.id, 'word') || isRevealed(w.id, 'meaning'))"
+                class="hanja-hint"
+                :title="'漢字語: ' + w.hanja"
+              >{{ w.hanja }}</div>
             </td>
             <td>
               <span
