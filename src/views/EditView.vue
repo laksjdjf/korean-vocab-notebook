@@ -188,7 +188,7 @@ function onImportFile(e: Event) {
       </div>
     </div>
 
-    <div class="card" style="margin-top:16px;padding:0;overflow-x:auto">
+    <div class="card" style="margin-top:16px;padding:0">
       <table class="wordtable">
         <thead>
           <tr>

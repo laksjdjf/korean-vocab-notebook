@@ -164,7 +164,7 @@ function stars(n: Importance) {
       </div>
     </div>
 
-    <div class="card" style="padding: 0; overflow-x: auto;">
+    <div class="card" style="padding: 0;">
       <table v-if="filtered.length > 0" class="wordtable">
         <thead>
           <tr>
