@@ -1,0 +1,5170 @@
+[
+    {
+        "word":  "안녕하세요",
+        "meaning":  "こんにちは",
+        "category":  "인사",
+        "example":  "안녕하세요, 만나서 반갑습니다.",
+        "exampleTranslation":  "こんにちは、お会いできて嬉しいです。",
+        "importance":  3
+    },
+    {
+        "word":  "감사합니다",
+        "meaning":  "ありがとうございます",
+        "category":  "인사",
+        "example":  "도와주셔서 감사합니다.",
+        "exampleTranslation":  "助けてくださりありがとうございます。",
+        "importance":  3
+    },
+    {
+        "word":  "죄송합니다",
+        "meaning":  "申し訳ありません",
+        "category":  "인사",
+        "example":  "늦어서 죄송합니다.",
+        "exampleTranslation":  "遅れて申し訳ありません。",
+        "importance":  3
+    },
+    {
+        "word":  "미안합니다",
+        "meaning":  "すみません",
+        "category":  "인사",
+        "example":  "정말 미안합니다.",
+        "exampleTranslation":  "本当にすみません。",
+        "importance":  3
+    },
+    {
+        "word":  "안녕히 가세요",
+        "meaning":  "さようなら(去る人へ)",
+        "category":  "인사",
+        "example":  "안녕히 가세요. 또 봐요.",
+        "exampleTranslation":  "さようなら。また会いましょう。",
+        "importance":  2
+    },
+    {
+        "word":  "안녕히 계세요",
+        "meaning":  "さようなら(残る人へ)",
+        "category":  "인사",
+        "example":  "먼저 갈게요. 안녕히 계세요.",
+        "exampleTranslation":  "先に行きます。さようなら。",
+        "importance":  2
+    },
+    {
+        "word":  "잘 부탁드립니다",
+        "meaning":  "よろしくお願いします",
+        "category":  "인사",
+        "example":  "앞으로 잘 부탁드립니다.",
+        "exampleTranslation":  "これからよろしくお願いします。",
+        "importance":  2
+    },
+    {
+        "word":  "처음 뵙겠습니다",
+        "meaning":  "はじめまして",
+        "category":  "인사",
+        "example":  "처음 뵙겠습니다. 저는 다나카입니다.",
+        "exampleTranslation":  "はじめまして。田中です。",
+        "importance":  2
+    },
+    {
+        "word":  "네",
+        "meaning":  "はい",
+        "category":  "인사",
+        "example":  "네, 알겠습니다.",
+        "exampleTranslation":  "はい、分かりました。",
+        "importance":  3
+    },
+    {
+        "word":  "아니요",
+        "meaning":  "いいえ",
+        "category":  "인사",
+        "example":  "아니요, 괜찮습니다.",
+        "exampleTranslation":  "いいえ、大丈夫です。",
+        "importance":  3
+    },
+    {
+        "word":  "가족",
+        "meaning":  "家族",
+        "category":  "가족",
+        "example":  "저는 가족과 함께 살아요.",
+        "exampleTranslation":  "私は家族と一緒に住んでいます。",
+        "importance":  3
+    },
+    {
+        "word":  "아버지",
+        "meaning":  "お父さん",
+        "category":  "가족",
+        "example":  "아버지는 회사원입니다.",
+        "exampleTranslation":  "父は会社員です。",
+        "importance":  3
+    },
+    {
+        "word":  "어머니",
+        "meaning":  "お母さん",
+        "category":  "가족",
+        "example":  "어머니께서 요리를 잘하세요.",
+        "exampleTranslation":  "母は料理が上手です。",
+        "importance":  3
+    },
+    {
+        "word":  "형",
+        "meaning":  "兄(男性から)",
+        "category":  "가족",
+        "example":  "저는 형이 한 명 있어요.",
+        "exampleTranslation":  "私には兄が一人います。",
+        "importance":  2
+    },
+    {
+        "word":  "누나",
+        "meaning":  "姉(男性から)",
+        "category":  "가족",
+        "example":  "누나는 의사예요.",
+        "exampleTranslation":  "姉は医者です。",
+        "importance":  2
+    },
+    {
+        "word":  "오빠",
+        "meaning":  "兄(女性から)",
+        "category":  "가족",
+        "example":  "오빠가 한국에 살아요.",
+        "exampleTranslation":  "兄が韓国に住んでいます。",
+        "importance":  2
+    },
+    {
+        "word":  "언니",
+        "meaning":  "姉(女性から)",
+        "category":  "가족",
+        "example":  "언니랑 같이 쇼핑을 가요.",
+        "exampleTranslation":  "姉と一緒に買い物に行きます。",
+        "importance":  2
+    },
+    {
+        "word":  "동생",
+        "meaning":  "弟・妹",
+        "category":  "가족",
+        "example":  "동생은 학생이에요.",
+        "exampleTranslation":  "弟(妹)は学生です。",
+        "importance":  3
+    },
+    {
+        "word":  "할아버지",
+        "meaning":  "おじいさん",
+        "category":  "가족",
+        "example":  "할아버지께서 신문을 읽으세요.",
+        "exampleTranslation":  "祖父が新聞を読んでいます。",
+        "importance":  2
+    },
+    {
+        "word":  "할머니",
+        "meaning":  "おばあさん",
+        "category":  "가족",
+        "example":  "할머니께서 김치를 만드세요.",
+        "exampleTranslation":  "祖母がキムチを作ります。",
+        "importance":  2
+    },
+    {
+        "word":  "밥",
+        "meaning":  "ご飯",
+        "category":  "음식",
+        "example":  "아침에 밥을 먹어요.",
+        "exampleTranslation":  "朝にご飯を食べます。",
+        "importance":  3
+    },
+    {
+        "word":  "김치",
+        "meaning":  "キムチ",
+        "category":  "음식",
+        "example":  "김치는 매워요.",
+        "exampleTranslation":  "キムチは辛いです。",
+        "importance":  3
+    },
+    {
+        "word":  "물",
+        "meaning":  "水",
+        "category":  "음식",
+        "example":  "물 한 잔 주세요.",
+        "exampleTranslation":  "水を一杯ください。",
+        "importance":  3
+    },
+    {
+        "word":  "커피",
+        "meaning":  "コーヒー",
+        "category":  "음식",
+        "example":  "커피를 좋아해요.",
+        "exampleTranslation":  "コーヒーが好きです。",
+        "importance":  3
+    },
+    {
+        "word":  "차",
+        "meaning":  "お茶",
+        "category":  "음식",
+        "example":  "녹차를 자주 마셔요.",
+        "exampleTranslation":  "緑茶をよく飲みます。",
+        "importance":  2
+    },
+    {
+        "word":  "빵",
+        "meaning":  "パン",
+        "category":  "음식",
+        "example":  "빵하고 우유를 사요.",
+        "exampleTranslation":  "パンと牛乳を買います。",
+        "importance":  2
+    },
+    {
+        "word":  "우유",
+        "meaning":  "牛乳",
+        "category":  "음식",
+        "example":  "매일 우유를 마셔요.",
+        "exampleTranslation":  "毎日牛乳を飲みます。",
+        "importance":  2
+    },
+    {
+        "word":  "라면",
+        "meaning":  "ラーメン",
+        "category":  "음식",
+        "example":  "라면을 끓여요.",
+        "exampleTranslation":  "ラーメンを作ります。",
+        "importance":  2
+    },
+    {
+        "word":  "과일",
+        "meaning":  "果物",
+        "category":  "음식",
+        "example":  "과일을 자주 먹어요.",
+        "exampleTranslation":  "果物をよく食べます。",
+        "importance":  2
+    },
+    {
+        "word":  "고기",
+        "meaning":  "肉",
+        "category":  "음식",
+        "example":  "고기를 구워 먹어요.",
+        "exampleTranslation":  "肉を焼いて食べます。",
+        "importance":  2
+    },
+    {
+        "word":  "오늘",
+        "meaning":  "今日",
+        "category":  "시간",
+        "example":  "오늘 날씨가 좋아요.",
+        "exampleTranslation":  "今日は天気がいいです。",
+        "importance":  3
+    },
+    {
+        "word":  "어제",
+        "meaning":  "昨日",
+        "category":  "시간",
+        "example":  "어제 친구를 만났어요.",
+        "exampleTranslation":  "昨日友達に会いました。",
+        "importance":  3
+    },
+    {
+        "word":  "내일",
+        "meaning":  "明日",
+        "category":  "시간",
+        "example":  "내일 시험이 있어요.",
+        "exampleTranslation":  "明日試験があります。",
+        "importance":  3
+    },
+    {
+        "word":  "지금",
+        "meaning":  "今",
+        "category":  "시간",
+        "example":  "지금 뭐 해요?",
+        "exampleTranslation":  "今、何をしていますか。",
+        "importance":  3
+    },
+    {
+        "word":  "아침",
+        "meaning":  "朝",
+        "category":  "시간",
+        "example":  "아침에 운동을 해요.",
+        "exampleTranslation":  "朝に運動をします。",
+        "importance":  3
+    },
+    {
+        "word":  "점심",
+        "meaning":  "昼",
+        "category":  "시간",
+        "example":  "점심을 같이 먹어요.",
+        "exampleTranslation":  "昼ご飯を一緒に食べます。",
+        "importance":  3
+    },
+    {
+        "word":  "저녁",
+        "meaning":  "夕方・夕食",
+        "category":  "시간",
+        "example":  "저녁에 가족과 식사해요.",
+        "exampleTranslation":  "夕方に家族と食事します。",
+        "importance":  3
+    },
+    {
+        "word":  "밤",
+        "meaning":  "夜",
+        "category":  "시간",
+        "example":  "밤늦게 책을 읽어요.",
+        "exampleTranslation":  "夜遅くまで本を読みます。",
+        "importance":  2
+    },
+    {
+        "word":  "시간",
+        "meaning":  "時間",
+        "category":  "시간",
+        "example":  "시간이 없어요.",
+        "exampleTranslation":  "時間がありません。",
+        "importance":  3
+    },
+    {
+        "word":  "분",
+        "meaning":  "分",
+        "category":  "시간",
+        "example":  "오 분만 기다려 주세요.",
+        "exampleTranslation":  "5分だけ待ってください。",
+        "importance":  2
+    },
+    {
+        "word":  "학교",
+        "meaning":  "学校",
+        "category":  "장소",
+        "example":  "학교에 가요.",
+        "exampleTranslation":  "学校に行きます。",
+        "importance":  3
+    },
+    {
+        "word":  "집",
+        "meaning":  "家",
+        "category":  "장소",
+        "example":  "집에서 쉬어요.",
+        "exampleTranslation":  "家で休みます。",
+        "importance":  3
+    },
+    {
+        "word":  "회사",
+        "meaning":  "会社",
+        "category":  "장소",
+        "example":  "회사가 멀어요.",
+        "exampleTranslation":  "会社が遠いです。",
+        "importance":  3
+    },
+    {
+        "word":  "식당",
+        "meaning":  "食堂",
+        "category":  "장소",
+        "example":  "식당에서 점심을 먹어요.",
+        "exampleTranslation":  "食堂で昼ご飯を食べます。",
+        "importance":  2
+    },
+    {
+        "word":  "카페",
+        "meaning":  "カフェ",
+        "category":  "장소",
+        "example":  "카페에서 커피를 마셔요.",
+        "exampleTranslation":  "カフェでコーヒーを飲みます。",
+        "importance":  2
+    },
+    {
+        "word":  "병원",
+        "meaning":  "病院",
+        "category":  "장소",
+        "example":  "병원에 가야 해요.",
+        "exampleTranslation":  "病院に行かなければなりません。",
+        "importance":  2
+    },
+    {
+        "word":  "은행",
+        "meaning":  "銀行",
+        "category":  "장소",
+        "example":  "은행은 어디에 있어요?",
+        "exampleTranslation":  "銀行はどこにありますか。",
+        "importance":  2
+    },
+    {
+        "word":  "도서관",
+        "meaning":  "図書館",
+        "category":  "장소",
+        "example":  "도서관에서 공부해요.",
+        "exampleTranslation":  "図書館で勉強します。",
+        "importance":  2
+    },
+    {
+        "word":  "공항",
+        "meaning":  "空港",
+        "category":  "장소",
+        "example":  "공항에서 친구를 만나요.",
+        "exampleTranslation":  "空港で友達に会います。",
+        "importance":  2
+    },
+    {
+        "word":  "화장실",
+        "meaning":  "トイレ",
+        "category":  "장소",
+        "example":  "화장실은 저쪽에 있어요.",
+        "exampleTranslation":  "トイレはあちらにあります。",
+        "importance":  3
+    },
+    {
+        "word":  "가다",
+        "meaning":  "行く",
+        "category":  "동사",
+        "example":  "학교에 가요.",
+        "exampleTranslation":  "学校に行きます。",
+        "importance":  3
+    },
+    {
+        "word":  "오다",
+        "meaning":  "来る",
+        "category":  "동사",
+        "example":  "친구가 와요.",
+        "exampleTranslation":  "友達が来ます。",
+        "importance":  3
+    },
+    {
+        "word":  "먹다",
+        "meaning":  "食べる",
+        "category":  "동사",
+        "example":  "밥을 먹어요.",
+        "exampleTranslation":  "ご飯を食べます。",
+        "importance":  3
+    },
+    {
+        "word":  "마시다",
+        "meaning":  "飲む",
+        "category":  "동사",
+        "example":  "물을 마셔요.",
+        "exampleTranslation":  "水を飲みます。",
+        "importance":  3
+    },
+    {
+        "word":  "보다",
+        "meaning":  "見る",
+        "category":  "동사",
+        "example":  "영화를 봐요.",
+        "exampleTranslation":  "映画を見ます。",
+        "importance":  3
+    },
+    {
+        "word":  "듣다",
+        "meaning":  "聞く",
+        "category":  "동사",
+        "example":  "음악을 들어요.",
+        "exampleTranslation":  "音楽を聞きます。",
+        "importance":  3
+    },
+    {
+        "word":  "하다",
+        "meaning":  "する",
+        "category":  "동사",
+        "example":  "숙제를 해요.",
+        "exampleTranslation":  "宿題をします。",
+        "importance":  3
+    },
+    {
+        "word":  "자다",
+        "meaning":  "寝る",
+        "category":  "동사",
+        "example":  "일찍 자요.",
+        "exampleTranslation":  "早く寝ます。",
+        "importance":  3
+    },
+    {
+        "word":  "일어나다",
+        "meaning":  "起きる",
+        "category":  "동사",
+        "example":  "아침 일곱 시에 일어나요.",
+        "exampleTranslation":  "朝7時に起きます。",
+        "importance":  2
+    },
+    {
+        "word":  "공부하다",
+        "meaning":  "勉強する",
+        "category":  "동사",
+        "example":  "한국어를 공부해요.",
+        "exampleTranslation":  "韓国語を勉強します。",
+        "importance":  3
+    },
+    {
+        "word":  "좋다",
+        "meaning":  "良い",
+        "category":  "형용사",
+        "example":  "날씨가 좋아요.",
+        "exampleTranslation":  "天気が良いです。",
+        "importance":  3
+    },
+    {
+        "word":  "나쁘다",
+        "meaning":  "悪い",
+        "category":  "형용사",
+        "example":  "머리가 나빠요.",
+        "exampleTranslation":  "頭が悪いです。",
+        "importance":  2
+    },
+    {
+        "word":  "크다",
+        "meaning":  "大きい",
+        "category":  "형용사",
+        "example":  "집이 커요.",
+        "exampleTranslation":  "家が大きいです。",
+        "importance":  3
+    },
+    {
+        "word":  "작다",
+        "meaning":  "小さい",
+        "category":  "형용사",
+        "example":  "가방이 작아요.",
+        "exampleTranslation":  "カバンが小さいです。",
+        "importance":  3
+    },
+    {
+        "word":  "많다",
+        "meaning":  "多い",
+        "category":  "형용사",
+        "example":  "사람이 많아요.",
+        "exampleTranslation":  "人が多いです。",
+        "importance":  3
+    },
+    {
+        "word":  "적다",
+        "meaning":  "少ない",
+        "category":  "형용사",
+        "example":  "돈이 적어요.",
+        "exampleTranslation":  "お金が少ないです。",
+        "importance":  2
+    },
+    {
+        "word":  "비싸다",
+        "meaning":  "(値段が)高い",
+        "category":  "형용사",
+        "example":  "이 옷은 비싸요.",
+        "exampleTranslation":  "この服は高いです。",
+        "importance":  3
+    },
+    {
+        "word":  "싸다",
+        "meaning":  "安い",
+        "category":  "형용사",
+        "example":  "이 식당은 싸요.",
+        "exampleTranslation":  "この食堂は安いです。",
+        "importance":  3
+    },
+    {
+        "word":  "덥다",
+        "meaning":  "暑い",
+        "category":  "형용사",
+        "example":  "여름은 더워요.",
+        "exampleTranslation":  "夏は暑いです。",
+        "importance":  3
+    },
+    {
+        "word":  "춥다",
+        "meaning":  "寒い",
+        "category":  "형용사",
+        "example":  "겨울은 추워요.",
+        "exampleTranslation":  "冬は寒いです。",
+        "importance":  3
+    },
+    {
+        "word":  "책",
+        "meaning":  "本",
+        "category":  "일상",
+        "example":  "책을 읽어요.",
+        "exampleTranslation":  "本を読みます。",
+        "importance":  3
+    },
+    {
+        "word":  "친구",
+        "meaning":  "友達",
+        "category":  "일상",
+        "example":  "친구하고 놀아요.",
+        "exampleTranslation":  "友達と遊びます。",
+        "importance":  3
+    },
+    {
+        "word":  "학생",
+        "meaning":  "学生",
+        "category":  "일상",
+        "example":  "저는 학생이에요.",
+        "exampleTranslation":  "私は学生です。",
+        "importance":  3
+    },
+    {
+        "word":  "선생님",
+        "meaning":  "先生",
+        "category":  "일상",
+        "example":  "선생님께서 가르치세요.",
+        "exampleTranslation":  "先生が教えてくださいます。",
+        "importance":  3
+    },
+    {
+        "word":  "회사원",
+        "meaning":  "会社員",
+        "category":  "일상",
+        "example":  "저는 회사원이에요.",
+        "exampleTranslation":  "私は会社員です。",
+        "importance":  2
+    },
+    {
+        "word":  "한국어",
+        "meaning":  "韓国語",
+        "category":  "일상",
+        "example":  "한국어가 재미있어요.",
+        "exampleTranslation":  "韓国語が面白いです。",
+        "importance":  3
+    },
+    {
+        "word":  "일본어",
+        "meaning":  "日本語",
+        "category":  "일상",
+        "example":  "일본어를 가르쳐요.",
+        "exampleTranslation":  "日本語を教えます。",
+        "importance":  3
+    },
+    {
+        "word":  "사람",
+        "meaning":  "人",
+        "category":  "일상",
+        "example":  "저 사람은 누구예요?",
+        "exampleTranslation":  "あの人は誰ですか。",
+        "importance":  3
+    },
+    {
+        "word":  "이름",
+        "meaning":  "名前",
+        "category":  "일상",
+        "example":  "이름이 뭐예요?",
+        "exampleTranslation":  "名前は何ですか。",
+        "importance":  3
+    },
+    {
+        "word":  "나라",
+        "meaning":  "国",
+        "category":  "일상",
+        "example":  "어느 나라에서 왔어요?",
+        "exampleTranslation":  "どの国から来ましたか。",
+        "importance":  2
+    },
+    {
+        "word":  "일",
+        "meaning":  "1（イル）",
+        "category":  "숫자",
+        "example":  "일 번 버스를 타요.",
+        "exampleTranslation":  "1番バスに乗ります。",
+        "importance":  3
+    },
+    {
+        "word":  "이",
+        "meaning":  "2（イ）",
+        "category":  "숫자",
+        "example":  "이 층에 있어요.",
+        "exampleTranslation":  "2階にあります。",
+        "importance":  3
+    },
+    {
+        "word":  "삼",
+        "meaning":  "3（サム）",
+        "category":  "숫자",
+        "example":  "삼 월에 만나요.",
+        "exampleTranslation":  "3月に会います。",
+        "importance":  3
+    },
+    {
+        "word":  "사",
+        "meaning":  "4（サ）",
+        "category":  "숫자",
+        "example":  "사 학년이에요.",
+        "exampleTranslation":  "4年生です。",
+        "importance":  3
+    },
+    {
+        "word":  "오",
+        "meaning":  "5（オ）",
+        "category":  "숫자",
+        "example":  "오 분 걸려요.",
+        "exampleTranslation":  "5分かかります。",
+        "importance":  3
+    },
+    {
+        "word":  "육",
+        "meaning":  "6（ユク）",
+        "category":  "숫자",
+        "example":  "육 개월 배웠어요.",
+        "exampleTranslation":  "6か月学びました。",
+        "importance":  2
+    },
+    {
+        "word":  "칠",
+        "meaning":  "7（チル）",
+        "category":  "숫자",
+        "example":  "칠 시에 일어나요.",
+        "exampleTranslation":  "7時に起きます。",
+        "importance":  2
+    },
+    {
+        "word":  "팔",
+        "meaning":  "8（パル）",
+        "category":  "숫자",
+        "example":  "팔 월은 더워요.",
+        "exampleTranslation":  "8月は暑いです。",
+        "importance":  2
+    },
+    {
+        "word":  "구",
+        "meaning":  "9（ク）",
+        "category":  "숫자",
+        "example":  "구 번 출구로 나와요.",
+        "exampleTranslation":  "9番出口から出ます。",
+        "importance":  2
+    },
+    {
+        "word":  "십",
+        "meaning":  "10（シプ）",
+        "category":  "숫자",
+        "example":  "십 분만 기다려요.",
+        "exampleTranslation":  "10分だけ待ちます。",
+        "importance":  3
+    },
+    {
+        "word":  "백",
+        "meaning":  "100（ペク）",
+        "category":  "숫자",
+        "example":  "백 명이 왔어요.",
+        "exampleTranslation":  "100人が来ました。",
+        "importance":  2
+    },
+    {
+        "word":  "천",
+        "meaning":  "1000（チョン）",
+        "category":  "숫자",
+        "example":  "천 원이에요.",
+        "exampleTranslation":  "1000ウォンです。",
+        "importance":  2
+    },
+    {
+        "word":  "만",
+        "meaning":  "10000（マン）",
+        "category":  "숫자",
+        "example":  "만 원을 냈어요.",
+        "exampleTranslation":  "1万ウォンを払いました。",
+        "importance":  2
+    },
+    {
+        "word":  "하나",
+        "meaning":  "一つ",
+        "category":  "숫자",
+        "example":  "사과 하나 주세요.",
+        "exampleTranslation":  "りんごを一つください。",
+        "importance":  3
+    },
+    {
+        "word":  "둘",
+        "meaning":  "二つ",
+        "category":  "숫자",
+        "example":  "둘이 같이 가요.",
+        "exampleTranslation":  "二人で一緒に行きます。",
+        "importance":  3
+    },
+    {
+        "word":  "셋",
+        "meaning":  "三つ",
+        "category":  "숫자",
+        "example":  "커피 셋 주세요.",
+        "exampleTranslation":  "コーヒーを三つください。",
+        "importance":  3
+    },
+    {
+        "word":  "넷",
+        "meaning":  "四つ",
+        "category":  "숫자",
+        "example":  "의자가 넷 있어요.",
+        "exampleTranslation":  "椅子が四つあります。",
+        "importance":  2
+    },
+    {
+        "word":  "다섯",
+        "meaning":  "五つ",
+        "category":  "숫자",
+        "example":  "다섯 시에 만나요.",
+        "exampleTranslation":  "5時に会います。",
+        "importance":  3
+    },
+    {
+        "word":  "색",
+        "meaning":  "色",
+        "category":  "색깔",
+        "example":  "무슨 색을 좋아해요?",
+        "exampleTranslation":  "何色が好きですか。",
+        "importance":  2
+    },
+    {
+        "word":  "빨간색",
+        "meaning":  "赤",
+        "category":  "색깔",
+        "example":  "빨간색 가방이에요.",
+        "exampleTranslation":  "赤いカバンです。",
+        "importance":  2
+    },
+    {
+        "word":  "파란색",
+        "meaning":  "青",
+        "category":  "색깔",
+        "example":  "하늘이 파란색이에요.",
+        "exampleTranslation":  "空が青いです。",
+        "importance":  2
+    },
+    {
+        "word":  "노란색",
+        "meaning":  "黄色",
+        "category":  "색깔",
+        "example":  "노란색 꽃이 예뻐요.",
+        "exampleTranslation":  "黄色い花がきれいです。",
+        "importance":  2
+    },
+    {
+        "word":  "하얀색",
+        "meaning":  "白",
+        "category":  "색깔",
+        "example":  "하얀색 셔츠를 입어요.",
+        "exampleTranslation":  "白いシャツを着ます。",
+        "importance":  2
+    },
+    {
+        "word":  "까만색",
+        "meaning":  "黒",
+        "category":  "색깔",
+        "example":  "까만색 구두를 신어요.",
+        "exampleTranslation":  "黒い靴を履きます。",
+        "importance":  2
+    },
+    {
+        "word":  "날씨",
+        "meaning":  "天気",
+        "category":  "날씨",
+        "example":  "오늘 날씨가 어때요?",
+        "exampleTranslation":  "今日の天気はどうですか。",
+        "importance":  3
+    },
+    {
+        "word":  "비",
+        "meaning":  "雨",
+        "category":  "날씨",
+        "example":  "비가 와요.",
+        "exampleTranslation":  "雨が降ります。",
+        "importance":  3
+    },
+    {
+        "word":  "눈",
+        "meaning":  "雪",
+        "category":  "날씨",
+        "example":  "눈이 많이 와요.",
+        "exampleTranslation":  "雪がたくさん降ります。",
+        "importance":  3
+    },
+    {
+        "word":  "바람",
+        "meaning":  "風",
+        "category":  "날씨",
+        "example":  "바람이 불어요.",
+        "exampleTranslation":  "風が吹きます。",
+        "importance":  2
+    },
+    {
+        "word":  "구름",
+        "meaning":  "雲",
+        "category":  "날씨",
+        "example":  "구름이 많아요.",
+        "exampleTranslation":  "雲が多いです。",
+        "importance":  2
+    },
+    {
+        "word":  "하늘",
+        "meaning":  "空",
+        "category":  "날씨",
+        "example":  "하늘이 맑아요.",
+        "exampleTranslation":  "空が晴れています。",
+        "importance":  2
+    },
+    {
+        "word":  "따뜻하다",
+        "meaning":  "暖かい",
+        "category":  "날씨",
+        "example":  "봄은 따뜻해요.",
+        "exampleTranslation":  "春は暖かいです。",
+        "importance":  2
+    },
+    {
+        "word":  "시원하다",
+        "meaning":  "涼しい",
+        "category":  "날씨",
+        "example":  "바람이 시원해요.",
+        "exampleTranslation":  "風が涼しいです。",
+        "importance":  2
+    },
+    {
+        "word":  "버스",
+        "meaning":  "バス",
+        "category":  "교통",
+        "example":  "버스를 타요.",
+        "exampleTranslation":  "バスに乗ります。",
+        "importance":  3
+    },
+    {
+        "word":  "지하철",
+        "meaning":  "地下鉄",
+        "category":  "교통",
+        "example":  "지하철이 빨라요.",
+        "exampleTranslation":  "地下鉄が速いです。",
+        "importance":  3
+    },
+    {
+        "word":  "택시",
+        "meaning":  "タクシー",
+        "category":  "교통",
+        "example":  "택시를 불러요.",
+        "exampleTranslation":  "タクシーを呼びます。",
+        "importance":  2
+    },
+    {
+        "word":  "기차",
+        "meaning":  "汽車・電車",
+        "category":  "교통",
+        "example":  "기차로 부산에 가요.",
+        "exampleTranslation":  "電車で釜山に行きます。",
+        "importance":  2
+    },
+    {
+        "word":  "비행기",
+        "meaning":  "飛行機",
+        "category":  "교통",
+        "example":  "비행기를 타고 가요.",
+        "exampleTranslation":  "飛行機に乗って行きます。",
+        "importance":  2
+    },
+    {
+        "word":  "자전거",
+        "meaning":  "自転車",
+        "category":  "교통",
+        "example":  "자전거를 타요.",
+        "exampleTranslation":  "自転車に乗ります。",
+        "importance":  2
+    },
+    {
+        "word":  "자동차",
+        "meaning":  "自動車",
+        "category":  "교통",
+        "example":  "자동차가 빨라요.",
+        "exampleTranslation":  "自動車が速いです。",
+        "importance":  2
+    },
+    {
+        "word":  "역",
+        "meaning":  "駅",
+        "category":  "교통",
+        "example":  "역에서 만나요.",
+        "exampleTranslation":  "駅で会います。",
+        "importance":  3
+    },
+    {
+        "word":  "표",
+        "meaning":  "切符・チケット",
+        "category":  "교통",
+        "example":  "표를 사요.",
+        "exampleTranslation":  "切符を買います。",
+        "importance":  2
+    },
+    {
+        "word":  "길",
+        "meaning":  "道",
+        "category":  "교통",
+        "example":  "길을 건너요.",
+        "exampleTranslation":  "道を渡ります。",
+        "importance":  2
+    },
+    {
+        "word":  "머리",
+        "meaning":  "頭・髪",
+        "category":  "몸",
+        "example":  "머리가 아파요.",
+        "exampleTranslation":  "頭が痛いです。",
+        "importance":  3
+    },
+    {
+        "word":  "눈",
+        "meaning":  "目",
+        "category":  "몸",
+        "example":  "눈이 커요.",
+        "exampleTranslation":  "目が大きいです。",
+        "importance":  3
+    },
+    {
+        "word":  "코",
+        "meaning":  "鼻",
+        "category":  "몸",
+        "example":  "코가 막혔어요.",
+        "exampleTranslation":  "鼻が詰まりました。",
+        "importance":  2
+    },
+    {
+        "word":  "입",
+        "meaning":  "口",
+        "category":  "몸",
+        "example":  "입을 크게 벌려요.",
+        "exampleTranslation":  "口を大きく開けます。",
+        "importance":  2
+    },
+    {
+        "word":  "귀",
+        "meaning":  "耳",
+        "category":  "몸",
+        "example":  "귀가 아파요.",
+        "exampleTranslation":  "耳が痛いです。",
+        "importance":  2
+    },
+    {
+        "word":  "손",
+        "meaning":  "手",
+        "category":  "몸",
+        "example":  "손을 씻어요.",
+        "exampleTranslation":  "手を洗います。",
+        "importance":  3
+    },
+    {
+        "word":  "발",
+        "meaning":  "足",
+        "category":  "몸",
+        "example":  "발이 아파요.",
+        "exampleTranslation":  "足が痛いです。",
+        "importance":  2
+    },
+    {
+        "word":  "배",
+        "meaning":  "お腹",
+        "category":  "몸",
+        "example":  "배가 고파요.",
+        "exampleTranslation":  "お腹が空きました。",
+        "importance":  3
+    },
+    {
+        "word":  "다리",
+        "meaning":  "脚",
+        "category":  "몸",
+        "example":  "다리가 길어요.",
+        "exampleTranslation":  "脚が長いです。",
+        "importance":  2
+    },
+    {
+        "word":  "얼굴",
+        "meaning":  "顔",
+        "category":  "몸",
+        "example":  "얼굴이 예뻐요.",
+        "exampleTranslation":  "顔がきれいです。",
+        "importance":  2
+    },
+    {
+        "word":  "개",
+        "meaning":  "犬",
+        "category":  "동물",
+        "example":  "개가 귀여워요.",
+        "exampleTranslation":  "犬がかわいいです。",
+        "importance":  2
+    },
+    {
+        "word":  "고양이",
+        "meaning":  "猫",
+        "category":  "동물",
+        "example":  "고양이를 키워요.",
+        "exampleTranslation":  "猫を飼っています。",
+        "importance":  2
+    },
+    {
+        "word":  "새",
+        "meaning":  "鳥",
+        "category":  "동물",
+        "example":  "새가 노래해요.",
+        "exampleTranslation":  "鳥が鳴いています。",
+        "importance":  2
+    },
+    {
+        "word":  "물고기",
+        "meaning":  "魚",
+        "category":  "동물",
+        "example":  "물고기가 헤엄쳐요.",
+        "exampleTranslation":  "魚が泳いでいます。",
+        "importance":  2
+    },
+    {
+        "word":  "동물",
+        "meaning":  "動物",
+        "category":  "동물",
+        "example":  "동물을 좋아해요.",
+        "exampleTranslation":  "動物が好きです。",
+        "importance":  2
+    },
+    {
+        "word":  "돈",
+        "meaning":  "お金",
+        "category":  "쇼핑",
+        "example":  "돈이 없어요.",
+        "exampleTranslation":  "お金がありません。",
+        "importance":  3
+    },
+    {
+        "word":  "값",
+        "meaning":  "値段",
+        "category":  "쇼핑",
+        "example":  "값이 비싸요.",
+        "exampleTranslation":  "値段が高いです。",
+        "importance":  2
+    },
+    {
+        "word":  "가게",
+        "meaning":  "店",
+        "category":  "쇼핑",
+        "example":  "가게에서 빵을 사요.",
+        "exampleTranslation":  "店でパンを買います。",
+        "importance":  2
+    },
+    {
+        "word":  "시장",
+        "meaning":  "市場",
+        "category":  "쇼핑",
+        "example":  "시장이 가까워요.",
+        "exampleTranslation":  "市場が近いです。",
+        "importance":  2
+    },
+    {
+        "word":  "백화점",
+        "meaning":  "デパート",
+        "category":  "쇼핑",
+        "example":  "백화점에서 옷을 사요.",
+        "exampleTranslation":  "デパートで服を買います。",
+        "importance":  2
+    },
+    {
+        "word":  "옷",
+        "meaning":  "服",
+        "category":  "쇼핑",
+        "example":  "옷이 예뻐요.",
+        "exampleTranslation":  "服がかわいいです。",
+        "importance":  3
+    },
+    {
+        "word":  "신발",
+        "meaning":  "靴",
+        "category":  "쇼핑",
+        "example":  "신발이 작아요.",
+        "exampleTranslation":  "靴が小さいです。",
+        "importance":  2
+    },
+    {
+        "word":  "가방",
+        "meaning":  "カバン",
+        "category":  "쇼핑",
+        "example":  "가방을 들어요.",
+        "exampleTranslation":  "カバンを持ちます。",
+        "importance":  3
+    },
+    {
+        "word":  "사다",
+        "meaning":  "買う",
+        "category":  "쇼핑",
+        "example":  "선물을 사요.",
+        "exampleTranslation":  "プレゼントを買います。",
+        "importance":  3
+    },
+    {
+        "word":  "팔다",
+        "meaning":  "売る",
+        "category":  "쇼핑",
+        "example":  "과일을 팔아요.",
+        "exampleTranslation":  "果物を売ります。",
+        "importance":  2
+    },
+    {
+        "word":  "읽다",
+        "meaning":  "読む",
+        "category":  "동사",
+        "example":  "신문을 읽어요.",
+        "exampleTranslation":  "新聞を読みます。",
+        "importance":  3
+    },
+    {
+        "word":  "쓰다",
+        "meaning":  "書く・使う",
+        "category":  "동사",
+        "example":  "편지를 써요.",
+        "exampleTranslation":  "手紙を書きます。",
+        "importance":  3
+    },
+    {
+        "word":  "말하다",
+        "meaning":  "話す",
+        "category":  "동사",
+        "example":  "천천히 말해요.",
+        "exampleTranslation":  "ゆっくり話します。",
+        "importance":  3
+    },
+    {
+        "word":  "만나다",
+        "meaning":  "会う",
+        "category":  "동사",
+        "example":  "친구를 만나요.",
+        "exampleTranslation":  "友達に会います。",
+        "importance":  3
+    },
+    {
+        "word":  "주다",
+        "meaning":  "あげる・くれる",
+        "category":  "동사",
+        "example":  "선물을 줘요.",
+        "exampleTranslation":  "プレゼントをあげます。",
+        "importance":  3
+    },
+    {
+        "word":  "받다",
+        "meaning":  "もらう・受ける",
+        "category":  "동사",
+        "example":  "편지를 받아요.",
+        "exampleTranslation":  "手紙をもらいます。",
+        "importance":  3
+    },
+    {
+        "word":  "앉다",
+        "meaning":  "座る",
+        "category":  "동사",
+        "example":  "의자에 앉아요.",
+        "exampleTranslation":  "椅子に座ります。",
+        "importance":  2
+    },
+    {
+        "word":  "서다",
+        "meaning":  "立つ",
+        "category":  "동사",
+        "example":  "줄을 서요.",
+        "exampleTranslation":  "列に並びます。",
+        "importance":  2
+    },
+    {
+        "word":  "열다",
+        "meaning":  "開ける",
+        "category":  "동사",
+        "example":  "문을 열어요.",
+        "exampleTranslation":  "ドアを開けます。",
+        "importance":  2
+    },
+    {
+        "word":  "닫다",
+        "meaning":  "閉める",
+        "category":  "동사",
+        "example":  "창문을 닫아요.",
+        "exampleTranslation":  "窓を閉めます。",
+        "importance":  2
+    },
+    {
+        "word":  "타다",
+        "meaning":  "乗る",
+        "category":  "동사",
+        "example":  "버스를 타요.",
+        "exampleTranslation":  "バスに乗ります。",
+        "importance":  3
+    },
+    {
+        "word":  "내리다",
+        "meaning":  "降りる",
+        "category":  "동사",
+        "example":  "여기서 내려요.",
+        "exampleTranslation":  "ここで降ります。",
+        "importance":  2
+    },
+    {
+        "word":  "기다리다",
+        "meaning":  "待つ",
+        "category":  "동사",
+        "example":  "친구를 기다려요.",
+        "exampleTranslation":  "友達を待ちます。",
+        "importance":  3
+    },
+    {
+        "word":  "좋아하다",
+        "meaning":  "好む・好きだ",
+        "category":  "동사",
+        "example":  "운동을 좋아해요.",
+        "exampleTranslation":  "運動が好きです。",
+        "importance":  3
+    },
+    {
+        "word":  "싫어하다",
+        "meaning":  "嫌う・嫌いだ",
+        "category":  "동사",
+        "example":  "매운 음식을 싫어해요.",
+        "exampleTranslation":  "辛い食べ物が嫌いです。",
+        "importance":  2
+    },
+    {
+        "word":  "알다",
+        "meaning":  "知る・分かる",
+        "category":  "동사",
+        "example":  "그 사람을 알아요.",
+        "exampleTranslation":  "その人を知っています。",
+        "importance":  3
+    },
+    {
+        "word":  "모르다",
+        "meaning":  "知らない・分からない",
+        "category":  "동사",
+        "example":  "길을 몰라요.",
+        "exampleTranslation":  "道が分かりません。",
+        "importance":  3
+    },
+    {
+        "word":  "배우다",
+        "meaning":  "習う",
+        "category":  "동사",
+        "example":  "한국어를 배워요.",
+        "exampleTranslation":  "韓国語を習います。",
+        "importance":  3
+    },
+    {
+        "word":  "가르치다",
+        "meaning":  "教える",
+        "category":  "동사",
+        "example":  "영어를 가르쳐요.",
+        "exampleTranslation":  "英語を教えます。",
+        "importance":  2
+    },
+    {
+        "word":  "일하다",
+        "meaning":  "働く",
+        "category":  "동사",
+        "example":  "회사에서 일해요.",
+        "exampleTranslation":  "会社で働きます。",
+        "importance":  3
+    },
+    {
+        "word":  "쉬다",
+        "meaning":  "休む",
+        "category":  "동사",
+        "example":  "집에서 쉬어요.",
+        "exampleTranslation":  "家で休みます。",
+        "importance":  2
+    },
+    {
+        "word":  "놀다",
+        "meaning":  "遊ぶ",
+        "category":  "동사",
+        "example":  "친구하고 놀아요.",
+        "exampleTranslation":  "友達と遊びます。",
+        "importance":  2
+    },
+    {
+        "word":  "운동하다",
+        "meaning":  "運動する",
+        "category":  "동사",
+        "example":  "아침에 운동해요.",
+        "exampleTranslation":  "朝に運動します。",
+        "importance":  2
+    },
+    {
+        "word":  "사랑하다",
+        "meaning":  "愛する",
+        "category":  "동사",
+        "example":  "가족을 사랑해요.",
+        "exampleTranslation":  "家族を愛しています。",
+        "importance":  2
+    },
+    {
+        "word":  "웃다",
+        "meaning":  "笑う",
+        "category":  "동사",
+        "example":  "크게 웃어요.",
+        "exampleTranslation":  "大きく笑います。",
+        "importance":  2
+    },
+    {
+        "word":  "울다",
+        "meaning":  "泣く",
+        "category":  "동사",
+        "example":  "아기가 울어요.",
+        "exampleTranslation":  "赤ちゃんが泣きます。",
+        "importance":  2
+    },
+    {
+        "word":  "예쁘다",
+        "meaning":  "きれいだ・かわいい",
+        "category":  "형용사",
+        "example":  "꽃이 예뻐요.",
+        "exampleTranslation":  "花がきれいです。",
+        "importance":  3
+    },
+    {
+        "word":  "맛있다",
+        "meaning":  "おいしい",
+        "category":  "형용사",
+        "example":  "음식이 맛있어요.",
+        "exampleTranslation":  "食べ物がおいしいです。",
+        "importance":  3
+    },
+    {
+        "word":  "맛없다",
+        "meaning":  "まずい",
+        "category":  "형용사",
+        "example":  "이 빵은 맛없어요.",
+        "exampleTranslation":  "このパンはまずいです。",
+        "importance":  2
+    },
+    {
+        "word":  "재미있다",
+        "meaning":  "面白い",
+        "category":  "형용사",
+        "example":  "영화가 재미있어요.",
+        "exampleTranslation":  "映画が面白いです。",
+        "importance":  3
+    },
+    {
+        "word":  "재미없다",
+        "meaning":  "つまらない",
+        "category":  "형용사",
+        "example":  "그 책은 재미없어요.",
+        "exampleTranslation":  "その本はつまらないです。",
+        "importance":  2
+    },
+    {
+        "word":  "길다",
+        "meaning":  "長い",
+        "category":  "형용사",
+        "example":  "머리가 길어요.",
+        "exampleTranslation":  "髪が長いです。",
+        "importance":  2
+    },
+    {
+        "word":  "짧다",
+        "meaning":  "短い",
+        "category":  "형용사",
+        "example":  "치마가 짧아요.",
+        "exampleTranslation":  "スカートが短いです。",
+        "importance":  2
+    },
+    {
+        "word":  "높다",
+        "meaning":  "高い（高さ）",
+        "category":  "형용사",
+        "example":  "산이 높아요.",
+        "exampleTranslation":  "山が高いです。",
+        "importance":  2
+    },
+    {
+        "word":  "낮다",
+        "meaning":  "低い",
+        "category":  "형용사",
+        "example":  "책상이 낮아요.",
+        "exampleTranslation":  "机が低いです。",
+        "importance":  2
+    },
+    {
+        "word":  "빠르다",
+        "meaning":  "速い",
+        "category":  "형용사",
+        "example":  "차가 빨라요.",
+        "exampleTranslation":  "車が速いです。",
+        "importance":  2
+    },
+    {
+        "word":  "느리다",
+        "meaning":  "遅い",
+        "category":  "형용사",
+        "example":  "버스가 느려요.",
+        "exampleTranslation":  "バスが遅いです。",
+        "importance":  2
+    },
+    {
+        "word":  "쉽다",
+        "meaning":  "易しい",
+        "category":  "형용사",
+        "example":  "시험이 쉬워요.",
+        "exampleTranslation":  "試験が易しいです。",
+        "importance":  2
+    },
+    {
+        "word":  "어렵다",
+        "meaning":  "難しい",
+        "category":  "형용사",
+        "example":  "한국어가 어려워요.",
+        "exampleTranslation":  "韓国語が難しいです。",
+        "importance":  3
+    },
+    {
+        "word":  "바쁘다",
+        "meaning":  "忙しい",
+        "category":  "형용사",
+        "example":  "요즘 바빠요.",
+        "exampleTranslation":  "最近忙しいです。",
+        "importance":  3
+    },
+    {
+        "word":  "아프다",
+        "meaning":  "痛い・具合が悪い",
+        "category":  "형용사",
+        "example":  "배가 아파요.",
+        "exampleTranslation":  "お腹が痛いです。",
+        "importance":  3
+    },
+    {
+        "word":  "배고프다",
+        "meaning":  "お腹が空く",
+        "category":  "형용사",
+        "example":  "너무 배고파요.",
+        "exampleTranslation":  "とてもお腹が空きました。",
+        "importance":  2
+    },
+    {
+        "word":  "피곤하다",
+        "meaning":  "疲れている",
+        "category":  "형용사",
+        "example":  "오늘 피곤해요.",
+        "exampleTranslation":  "今日は疲れています。",
+        "importance":  2
+    },
+    {
+        "word":  "깨끗하다",
+        "meaning":  "きれいだ・清潔だ",
+        "category":  "형용사",
+        "example":  "방이 깨끗해요.",
+        "exampleTranslation":  "部屋がきれいです。",
+        "importance":  2
+    },
+    {
+        "word":  "더럽다",
+        "meaning":  "汚い",
+        "category":  "형용사",
+        "example":  "손이 더러워요.",
+        "exampleTranslation":  "手が汚いです。",
+        "importance":  2
+    },
+    {
+        "word":  "새롭다",
+        "meaning":  "新しい",
+        "category":  "형용사",
+        "example":  "새로운 가방이에요.",
+        "exampleTranslation":  "新しいカバンです。",
+        "importance":  2
+    },
+    {
+        "word":  "아주",
+        "meaning":  "とても",
+        "category":  "부사",
+        "example":  "아주 좋아요.",
+        "exampleTranslation":  "とても良いです。",
+        "importance":  3
+    },
+    {
+        "word":  "너무",
+        "meaning":  "あまりに・とても",
+        "category":  "부사",
+        "example":  "너무 비싸요.",
+        "exampleTranslation":  "とても高いです。",
+        "importance":  3
+    },
+    {
+        "word":  "많이",
+        "meaning":  "たくさん",
+        "category":  "부사",
+        "example":  "많이 드세요.",
+        "exampleTranslation":  "たくさん召し上がってください。",
+        "importance":  3
+    },
+    {
+        "word":  "조금",
+        "meaning":  "少し",
+        "category":  "부사",
+        "example":  "조금 어려워요.",
+        "exampleTranslation":  "少し難しいです。",
+        "importance":  3
+    },
+    {
+        "word":  "빨리",
+        "meaning":  "速く・早く",
+        "category":  "부사",
+        "example":  "빨리 가요.",
+        "exampleTranslation":  "早く行きます。",
+        "importance":  3
+    },
+    {
+        "word":  "천천히",
+        "meaning":  "ゆっくり",
+        "category":  "부사",
+        "example":  "천천히 말해 주세요.",
+        "exampleTranslation":  "ゆっくり話してください。",
+        "importance":  2
+    },
+    {
+        "word":  "같이",
+        "meaning":  "一緒に",
+        "category":  "부사",
+        "example":  "같이 가요.",
+        "exampleTranslation":  "一緒に行きます。",
+        "importance":  3
+    },
+    {
+        "word":  "정말",
+        "meaning":  "本当に",
+        "category":  "부사",
+        "example":  "정말 고마워요.",
+        "exampleTranslation":  "本当にありがとうございます。",
+        "importance":  3
+    },
+    {
+        "word":  "자주",
+        "meaning":  "よく・頻繁に",
+        "category":  "부사",
+        "example":  "자주 만나요.",
+        "exampleTranslation":  "よく会います。",
+        "importance":  2
+    },
+    {
+        "word":  "가끔",
+        "meaning":  "たまに",
+        "category":  "부사",
+        "example":  "가끔 영화를 봐요.",
+        "exampleTranslation":  "たまに映画を見ます。",
+        "importance":  2
+    },
+    {
+        "word":  "주말",
+        "meaning":  "週末",
+        "category":  "시간",
+        "example":  "주말에 쉬어요.",
+        "exampleTranslation":  "週末に休みます。",
+        "importance":  3
+    },
+    {
+        "word":  "요일",
+        "meaning":  "曜日",
+        "category":  "시간",
+        "example":  "오늘은 무슨 요일이에요?",
+        "exampleTranslation":  "今日は何曜日ですか。",
+        "importance":  2
+    },
+    {
+        "word":  "월요일",
+        "meaning":  "月曜日",
+        "category":  "시간",
+        "example":  "월요일에 회의가 있어요.",
+        "exampleTranslation":  "月曜日に会議があります。",
+        "importance":  2
+    },
+    {
+        "word":  "일요일",
+        "meaning":  "日曜日",
+        "category":  "시간",
+        "example":  "일요일에 교회에 가요.",
+        "exampleTranslation":  "日曜日に教会に行きます。",
+        "importance":  2
+    },
+    {
+        "word":  "년",
+        "meaning":  "年",
+        "category":  "시간",
+        "example":  "올해는 좋은 해예요.",
+        "exampleTranslation":  "今年は良い年です。",
+        "importance":  2
+    },
+    {
+        "word":  "월",
+        "meaning":  "月（つき）",
+        "category":  "시간",
+        "example":  "유 월에 만나요.",
+        "exampleTranslation":  "6月に会います。",
+        "importance":  2
+    },
+    {
+        "word":  "일",
+        "meaning":  "日（ひ）",
+        "category":  "시간",
+        "example":  "오늘은 며칠이에요?",
+        "exampleTranslation":  "今日は何日ですか。",
+        "importance":  2
+    },
+    {
+        "word":  "시",
+        "meaning":  "時",
+        "category":  "시간",
+        "example":  "세 시에 만나요.",
+        "exampleTranslation":  "3時に会います。",
+        "importance":  3
+    },
+    {
+        "word":  "매일",
+        "meaning":  "毎日",
+        "category":  "시간",
+        "example":  "매일 운동해요.",
+        "exampleTranslation":  "毎日運動します。",
+        "importance":  3
+    },
+    {
+        "word":  "나중에",
+        "meaning":  "後で",
+        "category":  "시간",
+        "example":  "나중에 전화할게요.",
+        "exampleTranslation":  "後で電話します。",
+        "importance":  2
+    },
+    {
+        "word":  "방",
+        "meaning":  "部屋",
+        "category":  "장소",
+        "example":  "방이 깨끗해요.",
+        "exampleTranslation":  "部屋がきれいです。",
+        "importance":  3
+    },
+    {
+        "word":  "교실",
+        "meaning":  "教室",
+        "category":  "장소",
+        "example":  "교실에서 공부해요.",
+        "exampleTranslation":  "教室で勉強します。",
+        "importance":  2
+    },
+    {
+        "word":  "공원",
+        "meaning":  "公園",
+        "category":  "장소",
+        "example":  "공원에서 산책해요.",
+        "exampleTranslation":  "公園で散歩します。",
+        "importance":  2
+    },
+    {
+        "word":  "극장",
+        "meaning":  "映画館・劇場",
+        "category":  "장소",
+        "example":  "극장에서 영화를 봐요.",
+        "exampleTranslation":  "映画館で映画を見ます。",
+        "importance":  2
+    },
+    {
+        "word":  "우체국",
+        "meaning":  "郵便局",
+        "category":  "장소",
+        "example":  "우체국에서 편지를 보내요.",
+        "exampleTranslation":  "郵便局で手紙を送ります。",
+        "importance":  2
+    },
+    {
+        "word":  "편의점",
+        "meaning":  "コンビニ",
+        "category":  "장소",
+        "example":  "편의점에서 물을 사요.",
+        "exampleTranslation":  "コンビニで水を買います。",
+        "importance":  2
+    },
+    {
+        "word":  "호텔",
+        "meaning":  "ホテル",
+        "category":  "장소",
+        "example":  "호텔에서 자요.",
+        "exampleTranslation":  "ホテルで寝ます。",
+        "importance":  2
+    },
+    {
+        "word":  "가게",
+        "meaning":  "店",
+        "category":  "장소",
+        "example":  "가게가 문을 닫았어요.",
+        "exampleTranslation":  "店が閉まりました。",
+        "importance":  2
+    },
+    {
+        "word":  "바다",
+        "meaning":  "海",
+        "category":  "장소",
+        "example":  "여름에 바다에 가요.",
+        "exampleTranslation":  "夏に海に行きます。",
+        "importance":  2
+    },
+    {
+        "word":  "산",
+        "meaning":  "山",
+        "category":  "장소",
+        "example":  "주말에 산에 올라가요.",
+        "exampleTranslation":  "週末に山に登ります。",
+        "importance":  2
+    },
+    {
+        "word":  "저",
+        "meaning":  "私（丁寧）",
+        "category":  "대명사",
+        "example":  "저는 학생이에요.",
+        "exampleTranslation":  "私は学生です。",
+        "importance":  3
+    },
+    {
+        "word":  "나",
+        "meaning":  "私（くだけた）",
+        "category":  "대명사",
+        "example":  "나는 커피를 좋아해.",
+        "exampleTranslation":  "私はコーヒーが好き。",
+        "importance":  3
+    },
+    {
+        "word":  "우리",
+        "meaning":  "私たち",
+        "category":  "대명사",
+        "example":  "우리 같이 가요.",
+        "exampleTranslation":  "私たち一緒に行きましょう。",
+        "importance":  3
+    },
+    {
+        "word":  "너",
+        "meaning":  "君・お前",
+        "category":  "대명사",
+        "example":  "너는 어디 가?",
+        "exampleTranslation":  "君はどこに行くの。",
+        "importance":  2
+    },
+    {
+        "word":  "이것",
+        "meaning":  "これ",
+        "category":  "대명사",
+        "example":  "이것은 뭐예요?",
+        "exampleTranslation":  "これは何ですか。",
+        "importance":  3
+    },
+    {
+        "word":  "그것",
+        "meaning":  "それ",
+        "category":  "대명사",
+        "example":  "그것을 주세요.",
+        "exampleTranslation":  "それをください。",
+        "importance":  3
+    },
+    {
+        "word":  "저것",
+        "meaning":  "あれ",
+        "category":  "대명사",
+        "example":  "저것이 좋아요.",
+        "exampleTranslation":  "あれが良いです。",
+        "importance":  3
+    },
+    {
+        "word":  "여기",
+        "meaning":  "ここ",
+        "category":  "대명사",
+        "example":  "여기에 앉으세요.",
+        "exampleTranslation":  "ここに座ってください。",
+        "importance":  3
+    },
+    {
+        "word":  "거기",
+        "meaning":  "そこ",
+        "category":  "대명사",
+        "example":  "거기에 뭐가 있어요?",
+        "exampleTranslation":  "そこに何がありますか。",
+        "importance":  3
+    },
+    {
+        "word":  "저기",
+        "meaning":  "あそこ",
+        "category":  "대명사",
+        "example":  "저기에 있어요.",
+        "exampleTranslation":  "あそこにあります。",
+        "importance":  3
+    },
+    {
+        "word":  "무엇",
+        "meaning":  "何",
+        "category":  "의문사",
+        "example":  "이름이 무엇입니까?",
+        "exampleTranslation":  "名前は何ですか。",
+        "importance":  3
+    },
+    {
+        "word":  "뭐",
+        "meaning":  "何（口語）",
+        "category":  "의문사",
+        "example":  "뭐 먹을래요?",
+        "exampleTranslation":  "何を食べますか。",
+        "importance":  3
+    },
+    {
+        "word":  "누구",
+        "meaning":  "誰",
+        "category":  "의문사",
+        "example":  "저 사람은 누구예요?",
+        "exampleTranslation":  "あの人は誰ですか。",
+        "importance":  3
+    },
+    {
+        "word":  "언제",
+        "meaning":  "いつ",
+        "category":  "의문사",
+        "example":  "언제 만나요?",
+        "exampleTranslation":  "いつ会いますか。",
+        "importance":  3
+    },
+    {
+        "word":  "어디",
+        "meaning":  "どこ",
+        "category":  "의문사",
+        "example":  "어디에 가요?",
+        "exampleTranslation":  "どこに行きますか。",
+        "importance":  3
+    },
+    {
+        "word":  "왜",
+        "meaning":  "なぜ",
+        "category":  "의문사",
+        "example":  "왜 안 와요?",
+        "exampleTranslation":  "なぜ来ないのですか。",
+        "importance":  3
+    },
+    {
+        "word":  "어떻게",
+        "meaning":  "どうやって",
+        "category":  "의문사",
+        "example":  "어떻게 가요?",
+        "exampleTranslation":  "どうやって行きますか。",
+        "importance":  3
+    },
+    {
+        "word":  "얼마",
+        "meaning":  "いくら",
+        "category":  "의문사",
+        "example":  "이거 얼마예요?",
+        "exampleTranslation":  "これはいくらですか。",
+        "importance":  3
+    },
+    {
+        "word":  "몇",
+        "meaning":  "いくつ・何（数）",
+        "category":  "의문사",
+        "example":  "몇 시예요?",
+        "exampleTranslation":  "何時ですか。",
+        "importance":  3
+    },
+    {
+        "word":  "어느",
+        "meaning":  "どの",
+        "category":  "의문사",
+        "example":  "어느 것이 좋아요?",
+        "exampleTranslation":  "どれが良いですか。",
+        "importance":  2
+    },
+    {
+        "word":  "위",
+        "meaning":  "上",
+        "category":  "위치",
+        "example":  "책상 위에 있어요.",
+        "exampleTranslation":  "机の上にあります。",
+        "importance":  3
+    },
+    {
+        "word":  "아래",
+        "meaning":  "下",
+        "category":  "위치",
+        "example":  "의자 아래에 있어요.",
+        "exampleTranslation":  "椅子の下にあります。",
+        "importance":  3
+    },
+    {
+        "word":  "앞",
+        "meaning":  "前",
+        "category":  "위치",
+        "example":  "집 앞에서 만나요.",
+        "exampleTranslation":  "家の前で会います。",
+        "importance":  3
+    },
+    {
+        "word":  "뒤",
+        "meaning":  "後ろ",
+        "category":  "위치",
+        "example":  "건물 뒤에 있어요.",
+        "exampleTranslation":  "建物の後ろにあります。",
+        "importance":  3
+    },
+    {
+        "word":  "옆",
+        "meaning":  "横・隣",
+        "category":  "위치",
+        "example":  "은행 옆에 있어요.",
+        "exampleTranslation":  "銀行の隣にあります。",
+        "importance":  3
+    },
+    {
+        "word":  "안",
+        "meaning":  "中",
+        "category":  "위치",
+        "example":  "가방 안에 있어요.",
+        "exampleTranslation":  "カバンの中にあります。",
+        "importance":  3
+    },
+    {
+        "word":  "밖",
+        "meaning":  "外",
+        "category":  "위치",
+        "example":  "밖에 비가 와요.",
+        "exampleTranslation":  "外で雨が降っています。",
+        "importance":  3
+    },
+    {
+        "word":  "사이",
+        "meaning":  "間",
+        "category":  "위치",
+        "example":  "둘 사이에 있어요.",
+        "exampleTranslation":  "二つの間にあります。",
+        "importance":  2
+    },
+    {
+        "word":  "오른쪽",
+        "meaning":  "右側",
+        "category":  "위치",
+        "example":  "오른쪽으로 가세요.",
+        "exampleTranslation":  "右側へ行ってください。",
+        "importance":  2
+    },
+    {
+        "word":  "왼쪽",
+        "meaning":  "左側",
+        "category":  "위치",
+        "example":  "왼쪽에 있어요.",
+        "exampleTranslation":  "左側にあります。",
+        "importance":  2
+    },
+    {
+        "word":  "그리고",
+        "meaning":  "そして",
+        "category":  "접속사",
+        "example":  "밥을 먹고 그리고 잤어요.",
+        "exampleTranslation":  "ご飯を食べて、そして寝ました。",
+        "importance":  3
+    },
+    {
+        "word":  "그런데",
+        "meaning":  "ところで・でも",
+        "category":  "접속사",
+        "example":  "그런데 왜 안 왔어요?",
+        "exampleTranslation":  "ところでなぜ来なかったのですか。",
+        "importance":  3
+    },
+    {
+        "word":  "그래서",
+        "meaning":  "だから",
+        "category":  "접속사",
+        "example":  "아파서 그래서 쉬었어요.",
+        "exampleTranslation":  "具合が悪くて、だから休みました。",
+        "importance":  3
+    },
+    {
+        "word":  "하지만",
+        "meaning":  "しかし",
+        "category":  "접속사",
+        "example":  "비싸요. 하지만 좋아요.",
+        "exampleTranslation":  "高いです。しかし良いです。",
+        "importance":  3
+    },
+    {
+        "word":  "그러면",
+        "meaning":  "それなら",
+        "category":  "접속사",
+        "example":  "그러면 내일 만나요.",
+        "exampleTranslation":  "それなら明日会いましょう。",
+        "importance":  2
+    },
+    {
+        "word":  "기쁘다",
+        "meaning":  "嬉しい",
+        "category":  "감정",
+        "example":  "정말 기뻐요.",
+        "exampleTranslation":  "本当に嬉しいです。",
+        "importance":  2
+    },
+    {
+        "word":  "슬프다",
+        "meaning":  "悲しい",
+        "category":  "감정",
+        "example":  "영화가 슬퍼요.",
+        "exampleTranslation":  "映画が悲しいです。",
+        "importance":  2
+    },
+    {
+        "word":  "화나다",
+        "meaning":  "怒る・腹が立つ",
+        "category":  "감정",
+        "example":  "동생이 화났어요.",
+        "exampleTranslation":  "弟(妹)が怒りました。",
+        "importance":  2
+    },
+    {
+        "word":  "무섭다",
+        "meaning":  "怖い",
+        "category":  "감정",
+        "example":  "개가 무서워요.",
+        "exampleTranslation":  "犬が怖いです。",
+        "importance":  2
+    },
+    {
+        "word":  "심심하다",
+        "meaning":  "退屈だ",
+        "category":  "감정",
+        "example":  "주말에 심심해요.",
+        "exampleTranslation":  "週末は退屈です。",
+        "importance":  2
+    },
+    {
+        "word":  "괜찮다",
+        "meaning":  "大丈夫だ",
+        "category":  "감정",
+        "example":  "저는 괜찮아요.",
+        "exampleTranslation":  "私は大丈夫です。",
+        "importance":  3
+    },
+    {
+        "word":  "의사",
+        "meaning":  "医者",
+        "category":  "직업",
+        "example":  "그분은 의사예요.",
+        "exampleTranslation":  "その方は医者です。",
+        "importance":  2
+    },
+    {
+        "word":  "간호사",
+        "meaning":  "看護師",
+        "category":  "직업",
+        "example":  "간호사가 친절해요.",
+        "exampleTranslation":  "看護師が親切です。",
+        "importance":  2
+    },
+    {
+        "word":  "경찰",
+        "meaning":  "警察",
+        "category":  "직업",
+        "example":  "경찰을 불러요.",
+        "exampleTranslation":  "警察を呼びます。",
+        "importance":  2
+    },
+    {
+        "word":  "요리사",
+        "meaning":  "料理人",
+        "category":  "직업",
+        "example":  "형은 요리사예요.",
+        "exampleTranslation":  "兄は料理人です。",
+        "importance":  2
+    },
+    {
+        "word":  "가수",
+        "meaning":  "歌手",
+        "category":  "직업",
+        "example":  "그 가수를 좋아해요.",
+        "exampleTranslation":  "その歌手が好きです。",
+        "importance":  2
+    },
+    {
+        "word":  "배우",
+        "meaning":  "俳優",
+        "category":  "직업",
+        "example":  "유명한 배우예요.",
+        "exampleTranslation":  "有名な俳優です。",
+        "importance":  2
+    },
+    {
+        "word":  "취미",
+        "meaning":  "趣味",
+        "category":  "취미",
+        "example":  "취미가 뭐예요?",
+        "exampleTranslation":  "趣味は何ですか。",
+        "importance":  3
+    },
+    {
+        "word":  "운동",
+        "meaning":  "運動・スポーツ",
+        "category":  "취미",
+        "example":  "운동을 좋아해요.",
+        "exampleTranslation":  "運動が好きです。",
+        "importance":  3
+    },
+    {
+        "word":  "영화",
+        "meaning":  "映画",
+        "category":  "취미",
+        "example":  "영화를 자주 봐요.",
+        "exampleTranslation":  "映画をよく見ます。",
+        "importance":  3
+    },
+    {
+        "word":  "음악",
+        "meaning":  "音楽",
+        "category":  "취미",
+        "example":  "음악을 들어요.",
+        "exampleTranslation":  "音楽を聞きます。",
+        "importance":  3
+    },
+    {
+        "word":  "노래",
+        "meaning":  "歌",
+        "category":  "취미",
+        "example":  "노래를 잘해요.",
+        "exampleTranslation":  "歌が上手です。",
+        "importance":  3
+    },
+    {
+        "word":  "여행",
+        "meaning":  "旅行",
+        "category":  "취미",
+        "example":  "여행을 가고 싶어요.",
+        "exampleTranslation":  "旅行に行きたいです。",
+        "importance":  3
+    },
+    {
+        "word":  "사진",
+        "meaning":  "写真",
+        "category":  "취미",
+        "example":  "사진을 찍어요.",
+        "exampleTranslation":  "写真を撮ります。",
+        "importance":  2
+    },
+    {
+        "word":  "게임",
+        "meaning":  "ゲーム",
+        "category":  "취미",
+        "example":  "게임을 해요.",
+        "exampleTranslation":  "ゲームをします。",
+        "importance":  2
+    },
+    {
+        "word":  "수영",
+        "meaning":  "水泳",
+        "category":  "취미",
+        "example":  "수영을 배워요.",
+        "exampleTranslation":  "水泳を習います。",
+        "importance":  2
+    },
+    {
+        "word":  "춤",
+        "meaning":  "ダンス・踊り",
+        "category":  "취미",
+        "example":  "춤을 춰요.",
+        "exampleTranslation":  "踊りを踊ります。",
+        "importance":  2
+    },
+    {
+        "word":  "음식",
+        "meaning":  "食べ物",
+        "category":  "음식",
+        "example":  "한국 음식을 좋아해요.",
+        "exampleTranslation":  "韓国料理が好きです。",
+        "importance":  3
+    },
+    {
+        "word":  "국",
+        "meaning":  "スープ・汁物",
+        "category":  "음식",
+        "example":  "국이 뜨거워요.",
+        "exampleTranslation":  "スープが熱いです。",
+        "importance":  2
+    },
+    {
+        "word":  "계란",
+        "meaning":  "卵",
+        "category":  "음식",
+        "example":  "계란을 삶아요.",
+        "exampleTranslation":  "卵を茹でます。",
+        "importance":  2
+    },
+    {
+        "word":  "채소",
+        "meaning":  "野菜",
+        "category":  "음식",
+        "example":  "채소를 많이 먹어요.",
+        "exampleTranslation":  "野菜をたくさん食べます。",
+        "importance":  2
+    },
+    {
+        "word":  "생선",
+        "meaning":  "魚（食用）",
+        "category":  "음식",
+        "example":  "생선을 구워요.",
+        "exampleTranslation":  "魚を焼きます。",
+        "importance":  2
+    },
+    {
+        "word":  "설탕",
+        "meaning":  "砂糖",
+        "category":  "음식",
+        "example":  "설탕을 넣어요.",
+        "exampleTranslation":  "砂糖を入れます。",
+        "importance":  2
+    },
+    {
+        "word":  "소금",
+        "meaning":  "塩",
+        "category":  "음식",
+        "example":  "소금이 필요해요.",
+        "exampleTranslation":  "塩が必要です。",
+        "importance":  2
+    },
+    {
+        "word":  "맥주",
+        "meaning":  "ビール",
+        "category":  "음식",
+        "example":  "맥주를 마셔요.",
+        "exampleTranslation":  "ビールを飲みます。",
+        "importance":  2
+    },
+    {
+        "word":  "술",
+        "meaning":  "お酒",
+        "category":  "음식",
+        "example":  "술을 안 마셔요.",
+        "exampleTranslation":  "お酒を飲みません。",
+        "importance":  2
+    },
+    {
+        "word":  "주스",
+        "meaning":  "ジュース",
+        "category":  "음식",
+        "example":  "오렌지 주스를 주세요.",
+        "exampleTranslation":  "オレンジジュースをください。",
+        "importance":  2
+    },
+    {
+        "word":  "있다",
+        "meaning":  "ある・いる",
+        "category":  "동사",
+        "example":  "시간이 있어요.",
+        "exampleTranslation":  "時間があります。",
+        "importance":  3
+    },
+    {
+        "word":  "없다",
+        "meaning":  "ない・いない",
+        "category":  "동사",
+        "example":  "돈이 없어요.",
+        "exampleTranslation":  "お金がありません。",
+        "importance":  3
+    },
+    {
+        "word":  "되다",
+        "meaning":  "なる",
+        "category":  "동사",
+        "example":  "의사가 됐어요.",
+        "exampleTranslation":  "医者になりました。",
+        "importance":  3
+    },
+    {
+        "word":  "살다",
+        "meaning":  "住む・生きる",
+        "category":  "동사",
+        "example":  "서울에 살아요.",
+        "exampleTranslation":  "ソウルに住んでいます。",
+        "importance":  3
+    },
+    {
+        "word":  "죽다",
+        "meaning":  "死ぬ",
+        "category":  "동사",
+        "example":  "꽃이 죽었어요.",
+        "exampleTranslation":  "花が枯れました。",
+        "importance":  2
+    },
+    {
+        "word":  "시작하다",
+        "meaning":  "始める",
+        "category":  "동사",
+        "example":  "수업을 시작해요.",
+        "exampleTranslation":  "授業を始めます。",
+        "importance":  3
+    },
+    {
+        "word":  "끝나다",
+        "meaning":  "終わる",
+        "category":  "동사",
+        "example":  "수업이 끝났어요.",
+        "exampleTranslation":  "授業が終わりました。",
+        "importance":  3
+    },
+    {
+        "word":  "들어가다",
+        "meaning":  "入る",
+        "category":  "동사",
+        "example":  "방에 들어가요.",
+        "exampleTranslation":  "部屋に入ります。",
+        "importance":  2
+    },
+    {
+        "word":  "나가다",
+        "meaning":  "出る",
+        "category":  "동사",
+        "example":  "밖에 나가요.",
+        "exampleTranslation":  "外に出ます。",
+        "importance":  2
+    },
+    {
+        "word":  "찾다",
+        "meaning":  "探す・見つける",
+        "category":  "동사",
+        "example":  "열쇠를 찾아요.",
+        "exampleTranslation":  "鍵を探します。",
+        "importance":  3
+    },
+    {
+        "word":  "씻다",
+        "meaning":  "洗う",
+        "category":  "동사",
+        "example":  "손을 씻어요.",
+        "exampleTranslation":  "手を洗います。",
+        "importance":  2
+    },
+    {
+        "word":  "입다",
+        "meaning":  "着る",
+        "category":  "동사",
+        "example":  "옷을 입어요.",
+        "exampleTranslation":  "服を着ます。",
+        "importance":  3
+    },
+    {
+        "word":  "벗다",
+        "meaning":  "脱ぐ",
+        "category":  "동사",
+        "example":  "신발을 벗어요.",
+        "exampleTranslation":  "靴を脱ぎます。",
+        "importance":  2
+    },
+    {
+        "word":  "걷다",
+        "meaning":  "歩く",
+        "category":  "동사",
+        "example":  "공원을 걸어요.",
+        "exampleTranslation":  "公園を歩きます。",
+        "importance":  2
+    },
+    {
+        "word":  "뛰다",
+        "meaning":  "走る",
+        "category":  "동사",
+        "example":  "운동장에서 뛰어요.",
+        "exampleTranslation":  "運動場で走ります。",
+        "importance":  2
+    },
+    {
+        "word":  "전화하다",
+        "meaning":  "電話する",
+        "category":  "동사",
+        "example":  "친구에게 전화해요.",
+        "exampleTranslation":  "友達に電話します。",
+        "importance":  3
+    },
+    {
+        "word":  "이야기하다",
+        "meaning":  "話す・おしゃべりする",
+        "category":  "동사",
+        "example":  "친구하고 이야기해요.",
+        "exampleTranslation":  "友達と話します。",
+        "importance":  2
+    },
+    {
+        "word":  "끝내다",
+        "meaning":  "終える",
+        "category":  "동사",
+        "example":  "일을 끝내요.",
+        "exampleTranslation":  "仕事を終えます。",
+        "importance":  2
+    },
+    {
+        "word":  "청소하다",
+        "meaning":  "掃除する",
+        "category":  "동사",
+        "example":  "방을 청소해요.",
+        "exampleTranslation":  "部屋を掃除します。",
+        "importance":  2
+    },
+    {
+        "word":  "요리하다",
+        "meaning":  "料理する",
+        "category":  "동사",
+        "example":  "저녁을 요리해요.",
+        "exampleTranslation":  "夕食を料理します。",
+        "importance":  2
+    },
+    {
+        "word":  "멀다",
+        "meaning":  "遠い",
+        "category":  "형용사",
+        "example":  "집이 멀어요.",
+        "exampleTranslation":  "家が遠いです。",
+        "importance":  3
+    },
+    {
+        "word":  "가깝다",
+        "meaning":  "近い",
+        "category":  "형용사",
+        "example":  "역이 가까워요.",
+        "exampleTranslation":  "駅が近いです。",
+        "importance":  3
+    },
+    {
+        "word":  "무겁다",
+        "meaning":  "重い",
+        "category":  "형용사",
+        "example":  "가방이 무거워요.",
+        "exampleTranslation":  "カバンが重いです。",
+        "importance":  2
+    },
+    {
+        "word":  "가볍다",
+        "meaning":  "軽い",
+        "category":  "형용사",
+        "example":  "짐이 가벼워요.",
+        "exampleTranslation":  "荷物が軽いです。",
+        "importance":  2
+    },
+    {
+        "word":  "뜨겁다",
+        "meaning":  "熱い",
+        "category":  "형용사",
+        "example":  "물이 뜨거워요.",
+        "exampleTranslation":  "お湯が熱いです。",
+        "importance":  2
+    },
+    {
+        "word":  "차갑다",
+        "meaning":  "冷たい",
+        "category":  "형용사",
+        "example":  "물이 차가워요.",
+        "exampleTranslation":  "水が冷たいです。",
+        "importance":  2
+    },
+    {
+        "word":  "맵다",
+        "meaning":  "辛い",
+        "category":  "형용사",
+        "example":  "김치가 매워요.",
+        "exampleTranslation":  "キムチが辛いです。",
+        "importance":  3
+    },
+    {
+        "word":  "달다",
+        "meaning":  "甘い",
+        "category":  "형용사",
+        "example":  "케이크가 달아요.",
+        "exampleTranslation":  "ケーキが甘いです。",
+        "importance":  2
+    },
+    {
+        "word":  "같다",
+        "meaning":  "同じだ",
+        "category":  "형용사",
+        "example":  "값이 같아요.",
+        "exampleTranslation":  "値段が同じです。",
+        "importance":  2
+    },
+    {
+        "word":  "다르다",
+        "meaning":  "違う",
+        "category":  "형용사",
+        "example":  "생각이 달라요.",
+        "exampleTranslation":  "考えが違います。",
+        "importance":  2
+    },
+    {
+        "word":  "중요하다",
+        "meaning":  "重要だ",
+        "category":  "형용사",
+        "example":  "이것이 중요해요.",
+        "exampleTranslation":  "これが重要です。",
+        "importance":  2
+    },
+    {
+        "word":  "유명하다",
+        "meaning":  "有名だ",
+        "category":  "형용사",
+        "example":  "이 식당은 유명해요.",
+        "exampleTranslation":  "この食堂は有名です。",
+        "importance":  2
+    },
+    {
+        "word":  "친절하다",
+        "meaning":  "親切だ",
+        "category":  "형용사",
+        "example":  "점원이 친절해요.",
+        "exampleTranslation":  "店員が親切です。",
+        "importance":  2
+    },
+    {
+        "word":  "조용하다",
+        "meaning":  "静かだ",
+        "category":  "형용사",
+        "example":  "도서관이 조용해요.",
+        "exampleTranslation":  "図書館が静かです。",
+        "importance":  2
+    },
+    {
+        "word":  "시끄럽다",
+        "meaning":  "うるさい",
+        "category":  "형용사",
+        "example":  "밖이 시끄러워요.",
+        "exampleTranslation":  "外がうるさいです。",
+        "importance":  2
+    },
+    {
+        "word":  "말",
+        "meaning":  "言葉・話",
+        "category":  "일상",
+        "example":  "한국 말을 배워요.",
+        "exampleTranslation":  "韓国語を学びます。",
+        "importance":  3
+    },
+    {
+        "word":  "전화",
+        "meaning":  "電話",
+        "category":  "일상",
+        "example":  "전화를 받아요.",
+        "exampleTranslation":  "電話に出ます。",
+        "importance":  3
+    },
+    {
+        "word":  "문",
+        "meaning":  "ドア・門",
+        "category":  "일상",
+        "example":  "문을 열어요.",
+        "exampleTranslation":  "ドアを開けます。",
+        "importance":  2
+    },
+    {
+        "word":  "창문",
+        "meaning":  "窓",
+        "category":  "일상",
+        "example":  "창문을 닫아요.",
+        "exampleTranslation":  "窓を閉めます。",
+        "importance":  2
+    },
+    {
+        "word":  "의자",
+        "meaning":  "椅子",
+        "category":  "일상",
+        "example":  "의자에 앉아요.",
+        "exampleTranslation":  "椅子に座ります。",
+        "importance":  3
+    },
+    {
+        "word":  "책상",
+        "meaning":  "机",
+        "category":  "일상",
+        "example":  "책상 위에 책이 있어요.",
+        "exampleTranslation":  "机の上に本があります。",
+        "importance":  3
+    },
+    {
+        "word":  "컴퓨터",
+        "meaning":  "コンピューター",
+        "category":  "일상",
+        "example":  "컴퓨터를 사용해요.",
+        "exampleTranslation":  "コンピューターを使います。",
+        "importance":  2
+    },
+    {
+        "word":  "전화번호",
+        "meaning":  "電話番号",
+        "category":  "일상",
+        "example":  "전화번호가 뭐예요?",
+        "exampleTranslation":  "電話番号は何ですか。",
+        "importance":  2
+    },
+    {
+        "word":  "선물",
+        "meaning":  "プレゼント",
+        "category":  "일상",
+        "example":  "선물을 받았어요.",
+        "exampleTranslation":  "プレゼントをもらいました。",
+        "importance":  2
+    },
+    {
+        "word":  "시험",
+        "meaning":  "試験",
+        "category":  "일상",
+        "example":  "내일 시험이 있어요.",
+        "exampleTranslation":  "明日試験があります。",
+        "importance":  3
+    },
+    {
+        "word":  "숙제",
+        "meaning":  "宿題",
+        "category":  "일상",
+        "example":  "숙제를 했어요.",
+        "exampleTranslation":  "宿題をしました。",
+        "importance":  3
+    },
+    {
+        "word":  "수업",
+        "meaning":  "授業",
+        "category":  "일상",
+        "example":  "수업이 재미있어요.",
+        "exampleTranslation":  "授業が面白いです。",
+        "importance":  3
+    },
+    {
+        "word":  "질문",
+        "meaning":  "質問",
+        "category":  "일상",
+        "example":  "질문이 있어요.",
+        "exampleTranslation":  "質問があります。",
+        "importance":  2
+    },
+    {
+        "word":  "대답",
+        "meaning":  "答え・返事",
+        "category":  "일상",
+        "example":  "대답이 어려워요.",
+        "exampleTranslation":  "答えが難しいです。",
+        "importance":  2
+    },
+    {
+        "word":  "은/는",
+        "meaning":  "～は（主題）",
+        "category":  "조사",
+        "example":  "저는 학생이에요.",
+        "exampleTranslation":  "私は学生です。",
+        "importance":  3
+    },
+    {
+        "word":  "이/가",
+        "meaning":  "～が（主格）",
+        "category":  "조사",
+        "example":  "친구가 와요.",
+        "exampleTranslation":  "友達が来ます。",
+        "importance":  3
+    },
+    {
+        "word":  "을/를",
+        "meaning":  "～を（目的格）",
+        "category":  "조사",
+        "example":  "밥을 먹어요.",
+        "exampleTranslation":  "ご飯を食べます。",
+        "importance":  3
+    },
+    {
+        "word":  "에",
+        "meaning":  "～に（場所・時間）",
+        "category":  "조사",
+        "example":  "학교에 가요.",
+        "exampleTranslation":  "学校に行きます。",
+        "importance":  3
+    },
+    {
+        "word":  "에서",
+        "meaning":  "～で／～から（場所）",
+        "category":  "조사",
+        "example":  "집에서 쉬어요.",
+        "exampleTranslation":  "家で休みます。",
+        "importance":  3
+    },
+    {
+        "word":  "에게/한테",
+        "meaning":  "～に（人）",
+        "category":  "조사",
+        "example":  "친구에게 전화해요.",
+        "exampleTranslation":  "友達に電話します。",
+        "importance":  3
+    },
+    {
+        "word":  "와/과",
+        "meaning":  "～と（書き言葉）",
+        "category":  "조사",
+        "example":  "빵과 우유를 사요.",
+        "exampleTranslation":  "パンと牛乳を買います。",
+        "importance":  3
+    },
+    {
+        "word":  "하고",
+        "meaning":  "～と（話し言葉）",
+        "category":  "조사",
+        "example":  "친구하고 놀아요.",
+        "exampleTranslation":  "友達と遊びます。",
+        "importance":  3
+    },
+    {
+        "word":  "도",
+        "meaning":  "～も",
+        "category":  "조사",
+        "example":  "저도 가요.",
+        "exampleTranslation":  "私も行きます。",
+        "importance":  3
+    },
+    {
+        "word":  "의",
+        "meaning":  "～の（所有）",
+        "category":  "조사",
+        "example":  "친구의 책이에요.",
+        "exampleTranslation":  "友達の本です。",
+        "importance":  3
+    },
+    {
+        "word":  "으로/로",
+        "meaning":  "～で（手段）／～へ（方向）",
+        "category":  "조사",
+        "example":  "버스로 가요.",
+        "exampleTranslation":  "バスで行きます。",
+        "importance":  3
+    },
+    {
+        "word":  "부터",
+        "meaning":  "～から（時間の起点）",
+        "category":  "조사",
+        "example":  "아침부터 일해요.",
+        "exampleTranslation":  "朝から働きます。",
+        "importance":  2
+    },
+    {
+        "word":  "까지",
+        "meaning":  "～まで",
+        "category":  "조사",
+        "example":  "다섯 시까지 공부해요.",
+        "exampleTranslation":  "5時まで勉強します。",
+        "importance":  3
+    },
+    {
+        "word":  "께",
+        "meaning":  "～に（尊敬）",
+        "category":  "조사",
+        "example":  "선생님께 드려요.",
+        "exampleTranslation":  "先生に差し上げます。",
+        "importance":  2
+    },
+    {
+        "word":  "이나/나",
+        "meaning":  "～や／～でも",
+        "category":  "조사",
+        "example":  "커피나 차를 마셔요.",
+        "exampleTranslation":  "コーヒーやお茶を飲みます。",
+        "importance":  2
+    },
+    {
+        "word":  "-아요/어요",
+        "meaning":  "～です・ます（丁寧形）",
+        "category":  "문법",
+        "example":  "밥을 먹어요.",
+        "exampleTranslation":  "ご飯を食べます。",
+        "importance":  3
+    },
+    {
+        "word":  "-ㅂ니다/습니다",
+        "meaning":  "～です・ます（かしこまった形）",
+        "category":  "문법",
+        "example":  "저는 학생입니다.",
+        "exampleTranslation":  "私は学生です。",
+        "importance":  3
+    },
+    {
+        "word":  "-았/었-",
+        "meaning":  "～した（過去）",
+        "category":  "문법",
+        "example":  "어제 영화를 봤어요.",
+        "exampleTranslation":  "昨日映画を見ました。",
+        "importance":  3
+    },
+    {
+        "word":  "-ㄹ/을 거예요",
+        "meaning":  "～するつもりです（未来・推測）",
+        "category":  "문법",
+        "example":  "내일 갈 거예요.",
+        "exampleTranslation":  "明日行くつもりです。",
+        "importance":  3
+    },
+    {
+        "word":  "-고 싶다",
+        "meaning":  "～したい",
+        "category":  "문법",
+        "example":  "쉬고 싶어요.",
+        "exampleTranslation":  "休みたいです。",
+        "importance":  3
+    },
+    {
+        "word":  "-지 않다",
+        "meaning":  "～しない（否定）",
+        "category":  "문법",
+        "example":  "고기를 먹지 않아요.",
+        "exampleTranslation":  "肉を食べません。",
+        "importance":  3
+    },
+    {
+        "word":  "못",
+        "meaning":  "～できない（不可能）",
+        "category":  "문법",
+        "example":  "수영을 못 해요.",
+        "exampleTranslation":  "水泳ができません。",
+        "importance":  3
+    },
+    {
+        "word":  "-고",
+        "meaning":  "～して（並列・順序）",
+        "category":  "문법",
+        "example":  "밥을 먹고 자요.",
+        "exampleTranslation":  "ご飯を食べて寝ます。",
+        "importance":  3
+    },
+    {
+        "word":  "-아서/어서",
+        "meaning":  "～ので／～して（理由・順序）",
+        "category":  "문법",
+        "example":  "아파서 쉬었어요.",
+        "exampleTranslation":  "具合が悪くて休みました。",
+        "importance":  3
+    },
+    {
+        "word":  "-지만",
+        "meaning":  "～だが・けれど",
+        "category":  "문법",
+        "example":  "비싸지만 좋아요.",
+        "exampleTranslation":  "高いけれど良いです。",
+        "importance":  3
+    },
+    {
+        "word":  "-(으)면",
+        "meaning":  "～したら・すれば",
+        "category":  "문법",
+        "example":  "시간이 있으면 만나요.",
+        "exampleTranslation":  "時間があれば会います。",
+        "importance":  3
+    },
+    {
+        "word":  "-(으)세요",
+        "meaning":  "～してください（丁寧な指示）",
+        "category":  "문법",
+        "example":  "여기 앉으세요.",
+        "exampleTranslation":  "ここに座ってください。",
+        "importance":  3
+    },
+    {
+        "word":  "-(으)ㄹ 수 있다",
+        "meaning":  "～できる（可能）",
+        "category":  "문법",
+        "example":  "한국어를 할 수 있어요.",
+        "exampleTranslation":  "韓国語ができます。",
+        "importance":  3
+    },
+    {
+        "word":  "-(으)ㄹ 수 없다",
+        "meaning":  "～できない",
+        "category":  "문법",
+        "example":  "지금 갈 수 없어요.",
+        "exampleTranslation":  "今は行けません。",
+        "importance":  2
+    },
+    {
+        "word":  "-아야/어야 되다",
+        "meaning":  "～しなければならない",
+        "category":  "문법",
+        "example":  "약을 먹어야 돼요.",
+        "exampleTranslation":  "薬を飲まなければなりません。",
+        "importance":  2
+    },
+    {
+        "word":  "-고 있다",
+        "meaning":  "～している（進行）",
+        "category":  "문법",
+        "example":  "책을 읽고 있어요.",
+        "exampleTranslation":  "本を読んでいます。",
+        "importance":  3
+    },
+    {
+        "word":  "-(으)ㄹ까요?",
+        "meaning":  "～しましょうか／でしょうか",
+        "category":  "문법",
+        "example":  "같이 갈까요?",
+        "exampleTranslation":  "一緒に行きましょうか。",
+        "importance":  2
+    },
+    {
+        "word":  "-(으)ㅂ시다",
+        "meaning":  "～しましょう（勧誘）",
+        "category":  "문법",
+        "example":  "같이 갑시다.",
+        "exampleTranslation":  "一緒に行きましょう。",
+        "importance":  2
+    },
+    {
+        "word":  "-네요",
+        "meaning":  "～ですね（感嘆）",
+        "category":  "문법",
+        "example":  "날씨가 좋네요.",
+        "exampleTranslation":  "天気が良いですね。",
+        "importance":  2
+    },
+    {
+        "word":  "-(으)ㄴ/는",
+        "meaning":  "～する／した（連体形）",
+        "category":  "문법",
+        "example":  "맛있는 음식이에요.",
+        "exampleTranslation":  "おいしい食べ物です。",
+        "importance":  2
+    },
+    {
+        "word":  "-(으)러 가다",
+        "meaning":  "～しに行く（目的）",
+        "category":  "문법",
+        "example":  "밥을 먹으러 가요.",
+        "exampleTranslation":  "ご飯を食べに行きます。",
+        "importance":  2
+    },
+    {
+        "word":  "-기 전에",
+        "meaning":  "～する前に",
+        "category":  "문법",
+        "example":  "자기 전에 책을 읽어요.",
+        "exampleTranslation":  "寝る前に本を読みます。",
+        "importance":  2
+    },
+    {
+        "word":  "-(으)ㄴ 후에",
+        "meaning":  "～した後に",
+        "category":  "문법",
+        "example":  "수업이 끝난 후에 만나요.",
+        "exampleTranslation":  "授業が終わった後に会います。",
+        "importance":  2
+    },
+    {
+        "word":  "-(으)니까",
+        "meaning":  "～だから（理由）",
+        "category":  "문법",
+        "example":  "추우니까 문을 닫아요.",
+        "exampleTranslation":  "寒いからドアを閉めます。",
+        "importance":  2
+    },
+    {
+        "word":  "-는데/은데",
+        "meaning":  "～だが・なんですが（前置き）",
+        "category":  "문법",
+        "example":  "비싼데 살까요?",
+        "exampleTranslation":  "高いんですが買いましょうか。",
+        "importance":  2
+    },
+    {
+        "word":  "-아/어 주세요",
+        "meaning":  "～してください（依頼）",
+        "category":  "문법",
+        "example":  "사진을 찍어 주세요.",
+        "exampleTranslation":  "写真を撮ってください。",
+        "importance":  3
+    },
+    {
+        "word":  "이다",
+        "meaning":  "～だ・である（指定詞）",
+        "category":  "문법",
+        "example":  "이것은 책이에요.",
+        "exampleTranslation":  "これは本です。",
+        "importance":  3
+    },
+    {
+        "word":  "여섯",
+        "meaning":  "六つ",
+        "category":  "숫자",
+        "example":  "여섯 시에 일어나요.",
+        "exampleTranslation":  "6時に起きます。",
+        "importance":  3
+    },
+    {
+        "word":  "일곱",
+        "meaning":  "七つ",
+        "category":  "숫자",
+        "example":  "일곱 명이 왔어요.",
+        "exampleTranslation":  "7人が来ました。",
+        "importance":  2
+    },
+    {
+        "word":  "여덟",
+        "meaning":  "八つ",
+        "category":  "숫자",
+        "example":  "여덟 시에 시작해요.",
+        "exampleTranslation":  "8時に始めます。",
+        "importance":  2
+    },
+    {
+        "word":  "아홉",
+        "meaning":  "九つ",
+        "category":  "숫자",
+        "example":  "아홉 살이에요.",
+        "exampleTranslation":  "9歳です。",
+        "importance":  2
+    },
+    {
+        "word":  "열",
+        "meaning":  "十",
+        "category":  "숫자",
+        "example":  "열 명이 있어요.",
+        "exampleTranslation":  "10人います。",
+        "importance":  3
+    },
+    {
+        "word":  "스물",
+        "meaning":  "二十",
+        "category":  "숫자",
+        "example":  "스물 살이에요.",
+        "exampleTranslation":  "20歳です。",
+        "importance":  2
+    },
+    {
+        "word":  "서른",
+        "meaning":  "三十",
+        "category":  "숫자",
+        "example":  "서른 명이 모였어요.",
+        "exampleTranslation":  "30人が集まりました。",
+        "importance":  2
+    },
+    {
+        "word":  "번",
+        "meaning":  "～番・回（助数詞）",
+        "category":  "숫자",
+        "example":  "한 번 더 해요.",
+        "exampleTranslation":  "もう一度します。",
+        "importance":  2
+    },
+    {
+        "word":  "명",
+        "meaning":  "～名・人（助数詞）",
+        "category":  "숫자",
+        "example":  "학생이 다섯 명이에요.",
+        "exampleTranslation":  "学生が5名です。",
+        "importance":  2
+    },
+    {
+        "word":  "살",
+        "meaning":  "～歳（助数詞）",
+        "category":  "숫자",
+        "example":  "스무 살이에요.",
+        "exampleTranslation":  "20歳です。",
+        "importance":  3
+    },
+    {
+        "word":  "권",
+        "meaning":  "～冊（助数詞）",
+        "category":  "숫자",
+        "example":  "책 두 권을 샀어요.",
+        "exampleTranslation":  "本を2冊買いました。",
+        "importance":  2
+    },
+    {
+        "word":  "잔",
+        "meaning":  "～杯（助数詞）",
+        "category":  "숫자",
+        "example":  "커피 한 잔 주세요.",
+        "exampleTranslation":  "コーヒーを一杯ください。",
+        "importance":  2
+    },
+    {
+        "word":  "계절",
+        "meaning":  "季節",
+        "category":  "계절",
+        "example":  "어느 계절을 좋아해요?",
+        "exampleTranslation":  "どの季節が好きですか。",
+        "importance":  2
+    },
+    {
+        "word":  "봄",
+        "meaning":  "春",
+        "category":  "계절",
+        "example":  "봄에 꽃이 피어요.",
+        "exampleTranslation":  "春に花が咲きます。",
+        "importance":  3
+    },
+    {
+        "word":  "여름",
+        "meaning":  "夏",
+        "category":  "계절",
+        "example":  "여름은 더워요.",
+        "exampleTranslation":  "夏は暑いです。",
+        "importance":  3
+    },
+    {
+        "word":  "가을",
+        "meaning":  "秋",
+        "category":  "계절",
+        "example":  "가을은 시원해요.",
+        "exampleTranslation":  "秋は涼しいです。",
+        "importance":  3
+    },
+    {
+        "word":  "겨울",
+        "meaning":  "冬",
+        "category":  "계절",
+        "example":  "겨울에 눈이 와요.",
+        "exampleTranslation":  "冬に雪が降ります。",
+        "importance":  3
+    },
+    {
+        "word":  "꽃",
+        "meaning":  "花",
+        "category":  "자연",
+        "example":  "꽃이 예뻐요.",
+        "exampleTranslation":  "花がきれいです。",
+        "importance":  3
+    },
+    {
+        "word":  "나무",
+        "meaning":  "木",
+        "category":  "자연",
+        "example":  "나무가 커요.",
+        "exampleTranslation":  "木が大きいです。",
+        "importance":  2
+    },
+    {
+        "word":  "강",
+        "meaning":  "川",
+        "category":  "자연",
+        "example":  "강에서 낚시를 해요.",
+        "exampleTranslation":  "川で釣りをします。",
+        "importance":  2
+    },
+    {
+        "word":  "별",
+        "meaning":  "星",
+        "category":  "자연",
+        "example":  "밤에 별이 많아요.",
+        "exampleTranslation":  "夜に星が多いです。",
+        "importance":  2
+    },
+    {
+        "word":  "달",
+        "meaning":  "月（つき）",
+        "category":  "자연",
+        "example":  "달이 밝아요.",
+        "exampleTranslation":  "月が明るいです。",
+        "importance":  2
+    },
+    {
+        "word":  "해",
+        "meaning":  "太陽",
+        "category":  "자연",
+        "example":  "해가 떴어요.",
+        "exampleTranslation":  "日が昇りました。",
+        "importance":  2
+    },
+    {
+        "word":  "불",
+        "meaning":  "火",
+        "category":  "자연",
+        "example":  "불이 위험해요.",
+        "exampleTranslation":  "火が危ないです。",
+        "importance":  2
+    },
+    {
+        "word":  "돌",
+        "meaning":  "石",
+        "category":  "자연",
+        "example":  "돌이 무거워요.",
+        "exampleTranslation":  "石が重いです。",
+        "importance":  2
+    },
+    {
+        "word":  "시계",
+        "meaning":  "時計",
+        "category":  "일상",
+        "example":  "시계가 빨라요.",
+        "exampleTranslation":  "時計が進んでいます。",
+        "importance":  2
+    },
+    {
+        "word":  "안경",
+        "meaning":  "眼鏡",
+        "category":  "일상",
+        "example":  "안경을 써요.",
+        "exampleTranslation":  "眼鏡をかけます。",
+        "importance":  2
+    },
+    {
+        "word":  "우산",
+        "meaning":  "傘",
+        "category":  "일상",
+        "example":  "우산을 가져가요.",
+        "exampleTranslation":  "傘を持っていきます。",
+        "importance":  2
+    },
+    {
+        "word":  "열쇠",
+        "meaning":  "鍵",
+        "category":  "일상",
+        "example":  "열쇠를 잃어버렸어요.",
+        "exampleTranslation":  "鍵をなくしました。",
+        "importance":  2
+    },
+    {
+        "word":  "지갑",
+        "meaning":  "財布",
+        "category":  "일상",
+        "example":  "지갑에 돈이 없어요.",
+        "exampleTranslation":  "財布にお金がありません。",
+        "importance":  2
+    },
+    {
+        "word":  "휴대폰",
+        "meaning":  "携帯電話",
+        "category":  "일상",
+        "example":  "휴대폰이 울려요.",
+        "exampleTranslation":  "携帯電話が鳴ります。",
+        "importance":  3
+    },
+    {
+        "word":  "텔레비전",
+        "meaning":  "テレビ",
+        "category":  "일상",
+        "example":  "텔레비전을 봐요.",
+        "exampleTranslation":  "テレビを見ます。",
+        "importance":  2
+    },
+    {
+        "word":  "편지",
+        "meaning":  "手紙",
+        "category":  "일상",
+        "example":  "편지를 써요.",
+        "exampleTranslation":  "手紙を書きます。",
+        "importance":  2
+    },
+    {
+        "word":  "종이",
+        "meaning":  "紙",
+        "category":  "일상",
+        "example":  "종이에 써요.",
+        "exampleTranslation":  "紙に書きます。",
+        "importance":  2
+    },
+    {
+        "word":  "연필",
+        "meaning":  "鉛筆",
+        "category":  "일상",
+        "example":  "연필로 써요.",
+        "exampleTranslation":  "鉛筆で書きます。",
+        "importance":  2
+    },
+    {
+        "word":  "볼펜",
+        "meaning":  "ボールペン",
+        "category":  "일상",
+        "example":  "볼펜을 빌려주세요.",
+        "exampleTranslation":  "ボールペンを貸してください。",
+        "importance":  2
+    },
+    {
+        "word":  "노트",
+        "meaning":  "ノート",
+        "category":  "일상",
+        "example":  "노트에 적어요.",
+        "exampleTranslation":  "ノートに書きます。",
+        "importance":  2
+    },
+    {
+        "word":  "침대",
+        "meaning":  "ベッド",
+        "category":  "일상",
+        "example":  "침대에서 자요.",
+        "exampleTranslation":  "ベッドで寝ます。",
+        "importance":  2
+    },
+    {
+        "word":  "사전",
+        "meaning":  "辞書",
+        "category":  "일상",
+        "example":  "사전을 찾아요.",
+        "exampleTranslation":  "辞書を引きます。",
+        "importance":  2
+    },
+    {
+        "word":  "사과",
+        "meaning":  "りんご",
+        "category":  "음식",
+        "example":  "사과가 맛있어요.",
+        "exampleTranslation":  "りんごがおいしいです。",
+        "importance":  2
+    },
+    {
+        "word":  "바나나",
+        "meaning":  "バナナ",
+        "category":  "음식",
+        "example":  "바나나를 먹어요.",
+        "exampleTranslation":  "バナナを食べます。",
+        "importance":  2
+    },
+    {
+        "word":  "딸기",
+        "meaning":  "いちご",
+        "category":  "음식",
+        "example":  "딸기가 달아요.",
+        "exampleTranslation":  "いちごが甘いです。",
+        "importance":  2
+    },
+    {
+        "word":  "수박",
+        "meaning":  "すいか",
+        "category":  "음식",
+        "example":  "여름에 수박을 먹어요.",
+        "exampleTranslation":  "夏にすいかを食べます。",
+        "importance":  2
+    },
+    {
+        "word":  "밥상",
+        "meaning":  "食卓",
+        "category":  "음식",
+        "example":  "밥상을 차려요.",
+        "exampleTranslation":  "食卓を整えます。",
+        "importance":  1
+    },
+    {
+        "word":  "아이스크림",
+        "meaning":  "アイスクリーム",
+        "category":  "음식",
+        "example":  "아이스크림을 좋아해요.",
+        "exampleTranslation":  "アイスクリームが好きです。",
+        "importance":  2
+    },
+    {
+        "word":  "케이크",
+        "meaning":  "ケーキ",
+        "category":  "음식",
+        "example":  "생일에 케이크를 먹어요.",
+        "exampleTranslation":  "誕生日にケーキを食べます。",
+        "importance":  2
+    },
+    {
+        "word":  "된장",
+        "meaning":  "味噌",
+        "category":  "음식",
+        "example":  "된장으로 국을 끓여요.",
+        "exampleTranslation":  "味噌でスープを作ります。",
+        "importance":  1
+    },
+    {
+        "word":  "보내다",
+        "meaning":  "送る・過ごす",
+        "category":  "동사",
+        "example":  "편지를 보내요.",
+        "exampleTranslation":  "手紙を送ります。",
+        "importance":  3
+    },
+    {
+        "word":  "빌리다",
+        "meaning":  "借りる",
+        "category":  "동사",
+        "example":  "책을 빌려요.",
+        "exampleTranslation":  "本を借ります。",
+        "importance":  2
+    },
+    {
+        "word":  "갚다",
+        "meaning":  "返す",
+        "category":  "동사",
+        "example":  "돈을 갚아요.",
+        "exampleTranslation":  "お金を返します。",
+        "importance":  2
+    },
+    {
+        "word":  "도와주다",
+        "meaning":  "手伝う・助ける",
+        "category":  "동사",
+        "example":  "친구를 도와줘요.",
+        "exampleTranslation":  "友達を助けます。",
+        "importance":  2
+    },
+    {
+        "word":  "만들다",
+        "meaning":  "作る",
+        "category":  "동사",
+        "example":  "케이크를 만들어요.",
+        "exampleTranslation":  "ケーキを作ります。",
+        "importance":  3
+    },
+    {
+        "word":  "생각하다",
+        "meaning":  "考える・思う",
+        "category":  "동사",
+        "example":  "그렇게 생각해요.",
+        "exampleTranslation":  "そう思います。",
+        "importance":  3
+    },
+    {
+        "word":  "기억하다",
+        "meaning":  "覚える・記憶する",
+        "category":  "동사",
+        "example":  "이름을 기억해요.",
+        "exampleTranslation":  "名前を覚えています。",
+        "importance":  2
+    },
+    {
+        "word":  "잊다",
+        "meaning":  "忘れる",
+        "category":  "동사",
+        "example":  "약속을 잊었어요.",
+        "exampleTranslation":  "約束を忘れました。",
+        "importance":  2
+    },
+    {
+        "word":  "준비하다",
+        "meaning":  "準備する",
+        "category":  "동사",
+        "example":  "여행을 준비해요.",
+        "exampleTranslation":  "旅行を準備します。",
+        "importance":  2
+    },
+    {
+        "word":  "닦다",
+        "meaning":  "拭く・磨く",
+        "category":  "동사",
+        "example":  "이를 닦아요.",
+        "exampleTranslation":  "歯を磨きます。",
+        "importance":  2
+    },
+    {
+        "word":  "열심히 하다",
+        "meaning":  "一生懸命やる",
+        "category":  "동사",
+        "example":  "공부를 열심히 해요.",
+        "exampleTranslation":  "勉強を一生懸命します。",
+        "importance":  2
+    },
+    {
+        "word":  "물어보다",
+        "meaning":  "尋ねる",
+        "category":  "동사",
+        "example":  "길을 물어봐요.",
+        "exampleTranslation":  "道を尋ねます。",
+        "importance":  2
+    },
+    {
+        "word":  "대답하다",
+        "meaning":  "答える",
+        "category":  "동사",
+        "example":  "질문에 대답해요.",
+        "exampleTranslation":  "質問に答えます。",
+        "importance":  2
+    },
+    {
+        "word":  "벌써",
+        "meaning":  "もう・すでに",
+        "category":  "부사",
+        "example":  "벌써 끝났어요.",
+        "exampleTranslation":  "もう終わりました。",
+        "importance":  2
+    },
+    {
+        "word":  "아직",
+        "meaning":  "まだ",
+        "category":  "부사",
+        "example":  "아직 안 왔어요.",
+        "exampleTranslation":  "まだ来ていません。",
+        "importance":  3
+    },
+    {
+        "word":  "다시",
+        "meaning":  "もう一度・再び",
+        "category":  "부사",
+        "example":  "다시 해요.",
+        "exampleTranslation":  "もう一度します。",
+        "importance":  3
+    },
+    {
+        "word":  "제일",
+        "meaning":  "一番・最も",
+        "category":  "부사",
+        "example":  "이게 제일 좋아요.",
+        "exampleTranslation":  "これが一番良いです。",
+        "importance":  2
+    },
+    {
+        "word":  "가장",
+        "meaning":  "最も",
+        "category":  "부사",
+        "example":  "가장 빨라요.",
+        "exampleTranslation":  "最も速いです。",
+        "importance":  2
+    },
+    {
+        "word":  "혼자",
+        "meaning":  "一人で",
+        "category":  "부사",
+        "example":  "혼자 살아요.",
+        "exampleTranslation":  "一人で住んでいます。",
+        "importance":  2
+    },
+    {
+        "word":  "잘",
+        "meaning":  "よく・上手に",
+        "category":  "부사",
+        "example":  "한국어를 잘해요.",
+        "exampleTranslation":  "韓国語が上手です。",
+        "importance":  3
+    },
+    {
+        "word":  "일찍",
+        "meaning":  "早く（時間）",
+        "category":  "부사",
+        "example":  "일찍 일어나요.",
+        "exampleTranslation":  "早く起きます。",
+        "importance":  2
+    },
+    {
+        "word":  "늦게",
+        "meaning":  "遅く",
+        "category":  "부사",
+        "example":  "늦게 잤어요.",
+        "exampleTranslation":  "遅く寝ました。",
+        "importance":  2
+    },
+    {
+        "word":  "열심히",
+        "meaning":  "一生懸命",
+        "category":  "부사",
+        "example":  "열심히 공부해요.",
+        "exampleTranslation":  "一生懸命勉強します。",
+        "importance":  3
+    },
+    {
+        "word":  "오랜만이에요",
+        "meaning":  "お久しぶりです",
+        "category":  "인사",
+        "example":  "오랜만이에요! 잘 지냈어요?",
+        "exampleTranslation":  "お久しぶりです！元気でしたか。",
+        "importance":  3
+    },
+    {
+        "word":  "잘 지냈어요?",
+        "meaning":  "元気でしたか",
+        "category":  "인사",
+        "example":  "오랜만이에요. 잘 지냈어요?",
+        "exampleTranslation":  "お久しぶりです。元気でしたか。",
+        "importance":  3
+    },
+    {
+        "word":  "어떻게 지내세요?",
+        "meaning":  "どうお過ごしですか",
+        "category":  "인사",
+        "example":  "어떻게 지내세요? 저는 잘 지내요.",
+        "exampleTranslation":  "どうお過ごしですか。私は元気です。",
+        "importance":  2
+    },
+    {
+        "word":  "만나서 반가워요",
+        "meaning":  "お会いできて嬉しいです",
+        "category":  "인사",
+        "example":  "만나서 반가워요. 저는 다나카예요.",
+        "exampleTranslation":  "お会いできて嬉しいです。田中です。",
+        "importance":  3
+    },
+    {
+        "word":  "잘 자요",
+        "meaning":  "おやすみなさい",
+        "category":  "인사",
+        "example":  "내일 봐요. 잘 자요.",
+        "exampleTranslation":  "また明日。おやすみなさい。",
+        "importance":  3
+    },
+    {
+        "word":  "좋은 하루 되세요",
+        "meaning":  "よい一日を",
+        "category":  "인사",
+        "example":  "그럼 좋은 하루 되세요!",
+        "exampleTranslation":  "では、よい一日を！",
+        "importance":  2
+    },
+    {
+        "word":  "어서 오세요",
+        "meaning":  "いらっしゃいませ",
+        "category":  "인사",
+        "example":  "어서 오세요. 몇 분이세요?",
+        "exampleTranslation":  "いらっしゃいませ。何名様ですか。",
+        "importance":  2
+    },
+    {
+        "word":  "다녀오겠습니다",
+        "meaning":  "行ってきます",
+        "category":  "인사",
+        "example":  "학교에 다녀오겠습니다.",
+        "exampleTranslation":  "学校に行ってきます。",
+        "importance":  2
+    },
+    {
+        "word":  "다녀왔습니다",
+        "meaning":  "ただいま",
+        "category":  "인사",
+        "example":  "엄마, 다녀왔습니다.",
+        "exampleTranslation":  "お母さん、ただいま。",
+        "importance":  2
+    },
+    {
+        "word":  "축하합니다",
+        "meaning":  "おめでとうございます",
+        "category":  "인사",
+        "example":  "졸업을 축하합니다!",
+        "exampleTranslation":  "卒業おめでとうございます！",
+        "importance":  3
+    },
+    {
+        "word":  "생일 축하합니다",
+        "meaning":  "お誕生日おめでとう",
+        "category":  "인사",
+        "example":  "생일 축하합니다! 선물이에요.",
+        "exampleTranslation":  "お誕生日おめでとう！プレゼントです。",
+        "importance":  2
+    },
+    {
+        "word":  "잘 먹겠습니다",
+        "meaning":  "いただきます",
+        "category":  "표현",
+        "example":  "잘 먹겠습니다!",
+        "exampleTranslation":  "いただきます！",
+        "importance":  3
+    },
+    {
+        "word":  "잘 먹었습니다",
+        "meaning":  "ごちそうさまでした",
+        "category":  "표현",
+        "example":  "잘 먹었습니다. 맛있었어요.",
+        "exampleTranslation":  "ごちそうさまでした。おいしかったです。",
+        "importance":  3
+    },
+    {
+        "word":  "맛있게 드세요",
+        "meaning":  "召し上がれ",
+        "category":  "표현",
+        "example":  "음식 나왔어요. 맛있게 드세요.",
+        "exampleTranslation":  "お料理です。召し上がれ。",
+        "importance":  2
+    },
+    {
+        "word":  "수고하셨습니다",
+        "meaning":  "お疲れさまでした",
+        "category":  "표현",
+        "example":  "오늘도 수고하셨습니다.",
+        "exampleTranslation":  "今日もお疲れさまでした。",
+        "importance":  3
+    },
+    {
+        "word":  "천만에요",
+        "meaning":  "どういたしまして",
+        "category":  "표현",
+        "example":  "고마워요. — 천만에요.",
+        "exampleTranslation":  "ありがとう。— どういたしまして。",
+        "importance":  2
+    },
+    {
+        "word":  "괜찮아요",
+        "meaning":  "大丈夫です／結構です",
+        "category":  "표현",
+        "example":  "미안해요. — 괜찮아요.",
+        "exampleTranslation":  "ごめんなさい。— 大丈夫です。",
+        "importance":  3
+    },
+    {
+        "word":  "잠깐만요",
+        "meaning":  "ちょっと待ってください",
+        "category":  "표현",
+        "example":  "잠깐만요, 금방 올게요.",
+        "exampleTranslation":  "ちょっと待って、すぐ来ます。",
+        "importance":  3
+    },
+    {
+        "word":  "실례합니다",
+        "meaning":  "失礼します",
+        "category":  "표현",
+        "example":  "실례합니다, 길 좀 물을게요.",
+        "exampleTranslation":  "失礼します、道を尋ねます。",
+        "importance":  2
+    },
+    {
+        "word":  "여기요",
+        "meaning":  "すみません（店で呼ぶ）",
+        "category":  "표현",
+        "example":  "여기요, 메뉴 좀 주세요.",
+        "exampleTranslation":  "すみません、メニューをください。",
+        "importance":  3
+    },
+    {
+        "word":  "알겠습니다",
+        "meaning":  "分かりました",
+        "category":  "표현",
+        "example":  "네, 알겠습니다.",
+        "exampleTranslation":  "はい、分かりました。",
+        "importance":  3
+    },
+    {
+        "word":  "잘 모르겠어요",
+        "meaning":  "よく分かりません",
+        "category":  "표현",
+        "example":  "죄송해요, 잘 모르겠어요.",
+        "exampleTranslation":  "すみません、よく分かりません。",
+        "importance":  3
+    },
+    {
+        "word":  "물론이에요",
+        "meaning":  "もちろんです",
+        "category":  "표현",
+        "example":  "도와줄 수 있어요? — 물론이에요.",
+        "exampleTranslation":  "手伝ってもらえますか。— もちろんです。",
+        "importance":  2
+    },
+    {
+        "word":  "맞아요",
+        "meaning":  "そうです・その通りです",
+        "category":  "표현",
+        "example":  "이게 맞아요?",
+        "exampleTranslation":  "これで合っていますか。",
+        "importance":  3
+    },
+    {
+        "word":  "아니에요",
+        "meaning":  "違います／とんでもない",
+        "category":  "표현",
+        "example":  "고마워요. — 아니에요.",
+        "exampleTranslation":  "ありがとう。— とんでもないです。",
+        "importance":  3
+    },
+    {
+        "word":  "조심하세요",
+        "meaning":  "気をつけてください",
+        "category":  "표현",
+        "example":  "비가 와요. 조심하세요.",
+        "exampleTranslation":  "雨です。気をつけてください。",
+        "importance":  2
+    },
+    {
+        "word":  "파이팅",
+        "meaning":  "頑張って・ファイト",
+        "category":  "표현",
+        "example":  "시험 잘 봐요. 파이팅!",
+        "exampleTranslation":  "試験頑張って。ファイト！",
+        "importance":  2
+    },
+    {
+        "word":  "다시 한번 말씀해 주세요",
+        "meaning":  "もう一度言ってください",
+        "category":  "표현",
+        "example":  "죄송해요, 다시 한번 말씀해 주세요.",
+        "exampleTranslation":  "すみません、もう一度言ってください。",
+        "importance":  3
+    },
+    {
+        "word":  "천천히 말해 주세요",
+        "meaning":  "ゆっくり話してください",
+        "category":  "표현",
+        "example":  "천천히 말해 주세요. 한국어를 잘 못해요.",
+        "exampleTranslation":  "ゆっくり話してください。韓国語が苦手です。",
+        "importance":  3
+    },
+    {
+        "word":  "도와주세요",
+        "meaning":  "助けてください",
+        "category":  "표현",
+        "example":  "여기 좀 도와주세요.",
+        "exampleTranslation":  "ちょっと助けてください。",
+        "importance":  3
+    },
+    {
+        "word":  "얼마예요?",
+        "meaning":  "いくらですか",
+        "category":  "회화",
+        "example":  "이거 얼마예요?",
+        "exampleTranslation":  "これはいくらですか。",
+        "importance":  3
+    },
+    {
+        "word":  "이거 주세요",
+        "meaning":  "これください",
+        "category":  "회화",
+        "example":  "이거 주세요. 두 개요.",
+        "exampleTranslation":  "これください。2個で。",
+        "importance":  3
+    },
+    {
+        "word":  "화장실이 어디예요?",
+        "meaning":  "トイレはどこですか",
+        "category":  "회화",
+        "example":  "저기요, 화장실이 어디예요?",
+        "exampleTranslation":  "すみません、トイレはどこですか。",
+        "importance":  3
+    },
+    {
+        "word":  "이름이 뭐예요?",
+        "meaning":  "名前は何ですか",
+        "category":  "회화",
+        "example":  "이름이 뭐예요? — 김민수예요.",
+        "exampleTranslation":  "名前は何ですか。— キム・ミンスです。",
+        "importance":  3
+    },
+    {
+        "word":  "어디에서 왔어요?",
+        "meaning":  "どこから来ましたか",
+        "category":  "회화",
+        "example":  "어디에서 왔어요? — 일본에서 왔어요.",
+        "exampleTranslation":  "どこから来ましたか。— 日本から来ました。",
+        "importance":  3
+    },
+    {
+        "word":  "영어 할 수 있어요?",
+        "meaning":  "英語できますか",
+        "category":  "회화",
+        "example":  "영어 할 수 있어요?",
+        "exampleTranslation":  "英語できますか。",
+        "importance":  2
+    },
+    {
+        "word":  "한국어를 조금 해요",
+        "meaning":  "韓国語が少しできます",
+        "category":  "회화",
+        "example":  "한국어를 조금 해요.",
+        "exampleTranslation":  "韓国語が少しできます。",
+        "importance":  3
+    },
+    {
+        "word":  "이게 뭐예요?",
+        "meaning":  "これは何ですか",
+        "category":  "회화",
+        "example":  "이게 뭐예요? — 김밥이에요.",
+        "exampleTranslation":  "これは何ですか。— キンパです。",
+        "importance":  3
+    },
+    {
+        "word":  "계산해 주세요",
+        "meaning":  "お会計をお願いします",
+        "category":  "회화",
+        "example":  "다 먹었어요. 계산해 주세요.",
+        "exampleTranslation":  "食べ終わりました。お会計をお願いします。",
+        "importance":  2
+    },
+    {
+        "word":  "메뉴 좀 주세요",
+        "meaning":  "メニューをください",
+        "category":  "회화",
+        "example":  "여기요, 메뉴 좀 주세요.",
+        "exampleTranslation":  "すみません、メニューをください。",
+        "importance":  2
+    },
+    {
+        "word":  "주문할게요",
+        "meaning":  "注文します",
+        "category":  "회화",
+        "example":  "주문할게요. 비빔밥 하나요.",
+        "exampleTranslation":  "注文します。ビビンバ一つで。",
+        "importance":  2
+    },
+    {
+        "word":  "깎아 주세요",
+        "meaning":  "まけてください",
+        "category":  "회화",
+        "example":  "조금만 깎아 주세요.",
+        "exampleTranslation":  "少しまけてください。",
+        "importance":  1
+    },
+    {
+        "word":  "천천히 가세요",
+        "meaning":  "お気をつけて（去る人へ）",
+        "category":  "회화",
+        "example":  "조심해서 천천히 가세요.",
+        "exampleTranslation":  "気をつけてお帰りください。",
+        "importance":  2
+    },
+    {
+        "word":  "배가 아파요",
+        "meaning":  "お腹が痛いです",
+        "category":  "회화",
+        "example":  "배가 아파요. 약이 있어요?",
+        "exampleTranslation":  "お腹が痛いです。薬はありますか。",
+        "importance":  2
+    },
+    {
+        "word":  "부모님",
+        "meaning":  "両親",
+        "category":  "가족",
+        "example":  "부모님과 같이 살아요.",
+        "exampleTranslation":  "両親と一緒に住んでいます。",
+        "importance":  3
+    },
+    {
+        "word":  "아들",
+        "meaning":  "息子",
+        "category":  "가족",
+        "example":  "아들이 한 명 있어요.",
+        "exampleTranslation":  "息子が一人います。",
+        "importance":  2
+    },
+    {
+        "word":  "딸",
+        "meaning":  "娘",
+        "category":  "가족",
+        "example":  "딸이 학교에 가요.",
+        "exampleTranslation":  "娘が学校に行きます。",
+        "importance":  2
+    },
+    {
+        "word":  "남편",
+        "meaning":  "夫",
+        "category":  "가족",
+        "example":  "남편은 회사원이에요.",
+        "exampleTranslation":  "夫は会社員です。",
+        "importance":  2
+    },
+    {
+        "word":  "아내",
+        "meaning":  "妻",
+        "category":  "가족",
+        "example":  "아내가 요리를 잘해요.",
+        "exampleTranslation":  "妻は料理が上手です。",
+        "importance":  2
+    },
+    {
+        "word":  "아이",
+        "meaning":  "子供",
+        "category":  "가족",
+        "example":  "아이가 귀여워요.",
+        "exampleTranslation":  "子供がかわいいです。",
+        "importance":  3
+    },
+    {
+        "word":  "아기",
+        "meaning":  "赤ちゃん",
+        "category":  "가족",
+        "example":  "아기가 자요.",
+        "exampleTranslation":  "赤ちゃんが寝ています。",
+        "importance":  2
+    },
+    {
+        "word":  "어른",
+        "meaning":  "大人",
+        "category":  "가족",
+        "example":  "이제 어른이에요.",
+        "exampleTranslation":  "もう大人です。",
+        "importance":  2
+    },
+    {
+        "word":  "한국",
+        "meaning":  "韓国",
+        "category":  "나라",
+        "example":  "한국에 가고 싶어요.",
+        "exampleTranslation":  "韓国に行きたいです。",
+        "importance":  3
+    },
+    {
+        "word":  "일본",
+        "meaning":  "日本",
+        "category":  "나라",
+        "example":  "일본에서 왔어요.",
+        "exampleTranslation":  "日本から来ました。",
+        "importance":  3
+    },
+    {
+        "word":  "중국",
+        "meaning":  "中国",
+        "category":  "나라",
+        "example":  "중국은 넓어요.",
+        "exampleTranslation":  "中国は広いです。",
+        "importance":  2
+    },
+    {
+        "word":  "미국",
+        "meaning":  "アメリカ",
+        "category":  "나라",
+        "example":  "미국에 친구가 있어요.",
+        "exampleTranslation":  "アメリカに友達がいます。",
+        "importance":  2
+    },
+    {
+        "word":  "영국",
+        "meaning":  "イギリス",
+        "category":  "나라",
+        "example":  "영국에 가 봤어요.",
+        "exampleTranslation":  "イギリスに行ったことがあります。",
+        "importance":  1
+    },
+    {
+        "word":  "영어",
+        "meaning":  "英語",
+        "category":  "나라",
+        "example":  "영어를 배워요.",
+        "exampleTranslation":  "英語を学びます。",
+        "importance":  3
+    },
+    {
+        "word":  "중국어",
+        "meaning":  "中国語",
+        "category":  "나라",
+        "example":  "중국어는 어려워요.",
+        "exampleTranslation":  "中国語は難しいです。",
+        "importance":  2
+    },
+    {
+        "word":  "외국",
+        "meaning":  "外国",
+        "category":  "나라",
+        "example":  "외국에서 일해요.",
+        "exampleTranslation":  "外国で働きます。",
+        "importance":  2
+    },
+    {
+        "word":  "외국인",
+        "meaning":  "外国人",
+        "category":  "나라",
+        "example":  "외국인 친구가 많아요.",
+        "exampleTranslation":  "外国人の友達が多いです。",
+        "importance":  2
+    },
+    {
+        "word":  "화요일",
+        "meaning":  "火曜日",
+        "category":  "시간",
+        "example":  "화요일에 만나요.",
+        "exampleTranslation":  "火曜日に会います。",
+        "importance":  2
+    },
+    {
+        "word":  "수요일",
+        "meaning":  "水曜日",
+        "category":  "시간",
+        "example":  "수요일은 바빠요.",
+        "exampleTranslation":  "水曜日は忙しいです。",
+        "importance":  2
+    },
+    {
+        "word":  "목요일",
+        "meaning":  "木曜日",
+        "category":  "시간",
+        "example":  "목요일에 시험이 있어요.",
+        "exampleTranslation":  "木曜日に試験があります。",
+        "importance":  2
+    },
+    {
+        "word":  "금요일",
+        "meaning":  "金曜日",
+        "category":  "시간",
+        "example":  "금요일이 좋아요.",
+        "exampleTranslation":  "金曜日が好きです。",
+        "importance":  2
+    },
+    {
+        "word":  "토요일",
+        "meaning":  "土曜日",
+        "category":  "시간",
+        "example":  "토요일에 쉬어요.",
+        "exampleTranslation":  "土曜日に休みます。",
+        "importance":  2
+    },
+    {
+        "word":  "오전",
+        "meaning":  "午前",
+        "category":  "시간",
+        "example":  "오전에 회의가 있어요.",
+        "exampleTranslation":  "午前に会議があります。",
+        "importance":  2
+    },
+    {
+        "word":  "오후",
+        "meaning":  "午後",
+        "category":  "시간",
+        "example":  "오후에 만나요.",
+        "exampleTranslation":  "午後に会います。",
+        "importance":  2
+    },
+    {
+        "word":  "이번",
+        "meaning":  "今度の・今回の",
+        "category":  "시간",
+        "example":  "이번 주말에 여행 가요.",
+        "exampleTranslation":  "今週末に旅行に行きます。",
+        "importance":  3
+    },
+    {
+        "word":  "다음",
+        "meaning":  "次の",
+        "category":  "시간",
+        "example":  "다음에 또 봐요.",
+        "exampleTranslation":  "次にまた会いましょう。",
+        "importance":  3
+    },
+    {
+        "word":  "지난",
+        "meaning":  "この前の・過ぎた",
+        "category":  "시간",
+        "example":  "지난주에 만났어요.",
+        "exampleTranslation":  "先週会いました。",
+        "importance":  2
+    },
+    {
+        "word":  "방학",
+        "meaning":  "(学校の)長期休み",
+        "category":  "학교",
+        "example":  "방학에 한국에 가요.",
+        "exampleTranslation":  "休みに韓国に行きます。",
+        "importance":  2
+    },
+    {
+        "word":  "졸업",
+        "meaning":  "卒業",
+        "category":  "학교",
+        "example":  "내년에 졸업이에요.",
+        "exampleTranslation":  "来年卒業です。",
+        "importance":  2
+    },
+    {
+        "word":  "입학",
+        "meaning":  "入学",
+        "category":  "학교",
+        "example":  "삼 월에 입학해요.",
+        "exampleTranslation":  "3月に入学します。",
+        "importance":  1
+    },
+    {
+        "word":  "교과서",
+        "meaning":  "教科書",
+        "category":  "학교",
+        "example":  "교과서를 펴세요.",
+        "exampleTranslation":  "教科書を開いてください。",
+        "importance":  2
+    },
+    {
+        "word":  "칠판",
+        "meaning":  "黒板",
+        "category":  "학교",
+        "example":  "칠판을 봐요.",
+        "exampleTranslation":  "黒板を見ます。",
+        "importance":  1
+    },
+    {
+        "word":  "공책",
+        "meaning":  "ノート",
+        "category":  "학교",
+        "example":  "공책에 써요.",
+        "exampleTranslation":  "ノートに書きます。",
+        "importance":  2
+    },
+    {
+        "word":  "문제",
+        "meaning":  "問題",
+        "category":  "학교",
+        "example":  "문제가 어려워요.",
+        "exampleTranslation":  "問題が難しいです。",
+        "importance":  3
+    },
+    {
+        "word":  "점수",
+        "meaning":  "点数",
+        "category":  "학교",
+        "example":  "점수가 좋아요.",
+        "exampleTranslation":  "点数が良いです。",
+        "importance":  2
+    },
+    {
+        "word":  "대학교",
+        "meaning":  "大学",
+        "category":  "학교",
+        "example":  "대학교에 다녀요.",
+        "exampleTranslation":  "大学に通っています。",
+        "importance":  3
+    },
+    {
+        "word":  "유학생",
+        "meaning":  "留学生",
+        "category":  "학교",
+        "example":  "저는 유학생이에요.",
+        "exampleTranslation":  "私は留学生です。",
+        "importance":  2
+    },
+    {
+        "word":  "약",
+        "meaning":  "薬",
+        "category":  "건강",
+        "example":  "약을 먹어요.",
+        "exampleTranslation":  "薬を飲みます。",
+        "importance":  3
+    },
+    {
+        "word":  "감기",
+        "meaning":  "風邪",
+        "category":  "건강",
+        "example":  "감기에 걸렸어요.",
+        "exampleTranslation":  "風邪をひきました。",
+        "importance":  3
+    },
+    {
+        "word":  "기침",
+        "meaning":  "咳",
+        "category":  "건강",
+        "example":  "기침이 나요.",
+        "exampleTranslation":  "咳が出ます。",
+        "importance":  2
+    },
+    {
+        "word":  "병",
+        "meaning":  "病気",
+        "category":  "건강",
+        "example":  "병이 나았어요.",
+        "exampleTranslation":  "病気が治りました。",
+        "importance":  2
+    },
+    {
+        "word":  "건강",
+        "meaning":  "健康",
+        "category":  "건강",
+        "example":  "건강이 제일 중요해요.",
+        "exampleTranslation":  "健康が一番大切です。",
+        "importance":  2
+    },
+    {
+        "word":  "운동화",
+        "meaning":  "運動靴",
+        "category":  "건강",
+        "example":  "운동화를 신어요.",
+        "exampleTranslation":  "運動靴を履きます。",
+        "importance":  1
+    },
+    {
+        "word":  "축구",
+        "meaning":  "サッカー",
+        "category":  "운동",
+        "example":  "축구를 해요.",
+        "exampleTranslation":  "サッカーをします。",
+        "importance":  2
+    },
+    {
+        "word":  "야구",
+        "meaning":  "野球",
+        "category":  "운동",
+        "example":  "야구를 봐요.",
+        "exampleTranslation":  "野球を見ます。",
+        "importance":  2
+    },
+    {
+        "word":  "농구",
+        "meaning":  "バスケットボール",
+        "category":  "운동",
+        "example":  "농구를 좋아해요.",
+        "exampleTranslation":  "バスケが好きです。",
+        "importance":  2
+    },
+    {
+        "word":  "테니스",
+        "meaning":  "テニス",
+        "category":  "운동",
+        "example":  "테니스를 배워요.",
+        "exampleTranslation":  "テニスを習います。",
+        "importance":  2
+    },
+    {
+        "word":  "등산",
+        "meaning":  "登山",
+        "category":  "운동",
+        "example":  "주말에 등산을 가요.",
+        "exampleTranslation":  "週末に登山に行きます。",
+        "importance":  2
+    },
+    {
+        "word":  "부엌",
+        "meaning":  "台所",
+        "category":  "집",
+        "example":  "부엌에서 요리해요.",
+        "exampleTranslation":  "台所で料理します。",
+        "importance":  2
+    },
+    {
+        "word":  "거실",
+        "meaning":  "リビング",
+        "category":  "집",
+        "example":  "거실에서 텔레비전을 봐요.",
+        "exampleTranslation":  "リビングでテレビを見ます。",
+        "importance":  2
+    },
+    {
+        "word":  "정원",
+        "meaning":  "庭",
+        "category":  "집",
+        "example":  "정원에 꽃이 많아요.",
+        "exampleTranslation":  "庭に花が多いです。",
+        "importance":  1
+    },
+    {
+        "word":  "냉장고",
+        "meaning":  "冷蔵庫",
+        "category":  "집",
+        "example":  "냉장고에 우유가 있어요.",
+        "exampleTranslation":  "冷蔵庫に牛乳があります。",
+        "importance":  2
+    },
+    {
+        "word":  "문제없어요",
+        "meaning":  "問題ありません",
+        "category":  "표현",
+        "example":  "괜찮아요, 문제없어요.",
+        "exampleTranslation":  "大丈夫、問題ありません。",
+        "importance":  2
+    },
+    {
+        "word":  "초록색",
+        "meaning":  "緑",
+        "category":  "색깔",
+        "example":  "초록색 나무가 많아요.",
+        "exampleTranslation":  "緑の木が多いです。",
+        "importance":  2
+    },
+    {
+        "word":  "보라색",
+        "meaning":  "紫",
+        "category":  "색깔",
+        "example":  "보라색 꽃이 예뻐요.",
+        "exampleTranslation":  "紫の花がきれいです。",
+        "importance":  1
+    },
+    {
+        "word":  "분홍색",
+        "meaning":  "ピンク",
+        "category":  "색깔",
+        "example":  "분홍색 가방이에요.",
+        "exampleTranslation":  "ピンクのカバンです。",
+        "importance":  1
+    },
+    {
+        "word":  "갈색",
+        "meaning":  "茶色",
+        "category":  "색깔",
+        "example":  "갈색 구두를 신어요.",
+        "exampleTranslation":  "茶色の靴を履きます。",
+        "importance":  1
+    },
+    {
+        "word":  "켜다",
+        "meaning":  "(電気を)つける",
+        "category":  "동사",
+        "example":  "불을 켜요.",
+        "exampleTranslation":  "電気をつけます。",
+        "importance":  2
+    },
+    {
+        "word":  "끄다",
+        "meaning":  "(電気を)消す",
+        "category":  "동사",
+        "example":  "불을 꺼요.",
+        "exampleTranslation":  "電気を消します。",
+        "importance":  2
+    },
+    {
+        "word":  "들다",
+        "meaning":  "持つ・上げる",
+        "category":  "동사",
+        "example":  "손을 들어요.",
+        "exampleTranslation":  "手を挙げます。",
+        "importance":  2
+    },
+    {
+        "word":  "놓다",
+        "meaning":  "置く",
+        "category":  "동사",
+        "example":  "책을 책상에 놓아요.",
+        "exampleTranslation":  "本を机に置きます。",
+        "importance":  2
+    },
+    {
+        "word":  "잡다",
+        "meaning":  "つかむ・取る",
+        "category":  "동사",
+        "example":  "손을 잡아요.",
+        "exampleTranslation":  "手を握ります。",
+        "importance":  2
+    },
+    {
+        "word":  "밀다",
+        "meaning":  "押す",
+        "category":  "동사",
+        "example":  "문을 밀어요.",
+        "exampleTranslation":  "ドアを押します。",
+        "importance":  2
+    },
+    {
+        "word":  "당기다",
+        "meaning":  "引く",
+        "category":  "동사",
+        "example":  "문을 당겨요.",
+        "exampleTranslation":  "ドアを引きます。",
+        "importance":  2
+    },
+    {
+        "word":  "던지다",
+        "meaning":  "投げる",
+        "category":  "동사",
+        "example":  "공을 던져요.",
+        "exampleTranslation":  "ボールを投げます。",
+        "importance":  2
+    },
+    {
+        "word":  "출근하다",
+        "meaning":  "出勤する",
+        "category":  "동사",
+        "example":  "아홉 시에 출근해요.",
+        "exampleTranslation":  "9時に出勤します。",
+        "importance":  2
+    },
+    {
+        "word":  "퇴근하다",
+        "meaning":  "退勤する",
+        "category":  "동사",
+        "example":  "여섯 시에 퇴근해요.",
+        "exampleTranslation":  "6時に退勤します。",
+        "importance":  2
+    },
+    {
+        "word":  "도착하다",
+        "meaning":  "到着する",
+        "category":  "동사",
+        "example":  "역에 도착했어요.",
+        "exampleTranslation":  "駅に到着しました。",
+        "importance":  2
+    },
+    {
+        "word":  "출발하다",
+        "meaning":  "出発する",
+        "category":  "동사",
+        "example":  "지금 출발해요.",
+        "exampleTranslation":  "今出発します。",
+        "importance":  2
+    },
+    {
+        "word":  "밝다",
+        "meaning":  "明るい",
+        "category":  "형용사",
+        "example":  "방이 밝아요.",
+        "exampleTranslation":  "部屋が明るいです。",
+        "importance":  2
+    },
+    {
+        "word":  "어둡다",
+        "meaning":  "暗い",
+        "category":  "형용사",
+        "example":  "밖이 어두워요.",
+        "exampleTranslation":  "外が暗いです。",
+        "importance":  2
+    },
+    {
+        "word":  "넓다",
+        "meaning":  "広い",
+        "category":  "형용사",
+        "example":  "방이 넓어요.",
+        "exampleTranslation":  "部屋が広いです。",
+        "importance":  2
+    },
+    {
+        "word":  "좁다",
+        "meaning":  "狭い",
+        "category":  "형용사",
+        "example":  "길이 좁아요.",
+        "exampleTranslation":  "道が狭いです。",
+        "importance":  2
+    },
+    {
+        "word":  "두껍다",
+        "meaning":  "厚い",
+        "category":  "형용사",
+        "example":  "책이 두꺼워요.",
+        "exampleTranslation":  "本が厚いです。",
+        "importance":  1
+    },
+    {
+        "word":  "얇다",
+        "meaning":  "薄い",
+        "category":  "형용사",
+        "example":  "옷이 얇아요.",
+        "exampleTranslation":  "服が薄いです。",
+        "importance":  1
+    },
+    {
+        "word":  "귀엽다",
+        "meaning":  "かわいい",
+        "category":  "형용사",
+        "example":  "강아지가 귀여워요.",
+        "exampleTranslation":  "子犬がかわいいです。",
+        "importance":  2
+    },
+    {
+        "word":  "멋있다",
+        "meaning":  "かっこいい・素敵だ",
+        "category":  "형용사",
+        "example":  "옷이 멋있어요.",
+        "exampleTranslation":  "服がかっこいいです。",
+        "importance":  2
+    },
+    {
+        "word":  "배부르다",
+        "meaning":  "お腹いっぱいだ",
+        "category":  "형용사",
+        "example":  "많이 먹어서 배불러요.",
+        "exampleTranslation":  "たくさん食べてお腹いっぱいです。",
+        "importance":  2
+    },
+    {
+        "word":  "심하다",
+        "meaning":  "ひどい・激しい",
+        "category":  "형용사",
+        "example":  "감기가 심해요.",
+        "exampleTranslation":  "風邪がひどいです。",
+        "importance":  1
+    },
+    {
+        "word":  "식사",
+        "meaning":  "食事",
+        "category":  "음식",
+        "example":  "식사를 했어요?",
+        "exampleTranslation":  "食事はしましたか。",
+        "importance":  3
+    },
+    {
+        "word":  "반찬",
+        "meaning":  "おかず",
+        "category":  "음식",
+        "example":  "반찬이 많아요.",
+        "exampleTranslation":  "おかずが多いです。",
+        "importance":  2
+    },
+    {
+        "word":  "간식",
+        "meaning":  "おやつ・間食",
+        "category":  "음식",
+        "example":  "간식을 먹어요.",
+        "exampleTranslation":  "おやつを食べます。",
+        "importance":  2
+    },
+    {
+        "word":  "맛",
+        "meaning":  "味",
+        "category":  "음식",
+        "example":  "맛이 좋아요.",
+        "exampleTranslation":  "味が良いです。",
+        "importance":  2
+    },
+    {
+        "word":  "냄새",
+        "meaning":  "におい",
+        "category":  "음식",
+        "example":  "냄새가 좋아요.",
+        "exampleTranslation":  "いいにおいがします。",
+        "importance":  2
+    },
+    {
+        "word":  "행복하다",
+        "meaning":  "幸せだ",
+        "category":  "감정",
+        "example":  "가족과 있어서 행복해요.",
+        "exampleTranslation":  "家族といて幸せです。",
+        "importance":  2
+    },
+    {
+        "word":  "즐겁다",
+        "meaning":  "楽しい",
+        "category":  "감정",
+        "example":  "여행이 즐거워요.",
+        "exampleTranslation":  "旅行が楽しいです。",
+        "importance":  2
+    },
+    {
+        "word":  "외롭다",
+        "meaning":  "寂しい",
+        "category":  "감정",
+        "example":  "혼자라서 외로워요.",
+        "exampleTranslation":  "一人で寂しいです。",
+        "importance":  2
+    },
+    {
+        "word":  "걱정하다",
+        "meaning":  "心配する",
+        "category":  "감정",
+        "example":  "시험을 걱정해요.",
+        "exampleTranslation":  "試験を心配しています。",
+        "importance":  2
+    },
+    {
+        "word":  "놀라다",
+        "meaning":  "驚く",
+        "category":  "감정",
+        "example":  "소식을 듣고 놀랐어요.",
+        "exampleTranslation":  "知らせを聞いて驚きました。",
+        "importance":  2
+    },
+    {
+        "word":  "부끄럽다",
+        "meaning":  "恥ずかしい",
+        "category":  "감정",
+        "example":  "실수해서 부끄러워요.",
+        "exampleTranslation":  "失敗して恥ずかしいです。",
+        "importance":  1
+    },
+    {
+        "word":  "편하다",
+        "meaning":  "楽だ・気楽だ",
+        "category":  "감정",
+        "example":  "이 신발이 편해요.",
+        "exampleTranslation":  "この靴が楽です。",
+        "importance":  2
+    },
+    {
+        "word":  "불편하다",
+        "meaning":  "不便だ・気まずい",
+        "category":  "감정",
+        "example":  "의자가 불편해요.",
+        "exampleTranslation":  "椅子が座り心地が悪いです。",
+        "importance":  2
+    },
+    {
+        "word":  "마음",
+        "meaning":  "心・気持ち",
+        "category":  "감정",
+        "example":  "마음이 따뜻해요.",
+        "exampleTranslation":  "心が温かいです。",
+        "importance":  2
+    },
+    {
+        "word":  "다치다",
+        "meaning":  "怪我をする",
+        "category":  "건강",
+        "example":  "다리를 다쳤어요.",
+        "exampleTranslation":  "脚を怪我しました。",
+        "importance":  2
+    },
+    {
+        "word":  "낫다",
+        "meaning":  "治る",
+        "category":  "건강",
+        "example":  "감기가 다 나았어요.",
+        "exampleTranslation":  "風邪がすっかり治りました。",
+        "importance":  2
+    },
+    {
+        "word":  "치과",
+        "meaning":  "歯医者",
+        "category":  "건강",
+        "example":  "치과에 가야 해요.",
+        "exampleTranslation":  "歯医者に行かなければなりません。",
+        "importance":  1
+    },
+    {
+        "word":  "약국",
+        "meaning":  "薬局",
+        "category":  "건강",
+        "example":  "약국에서 약을 사요.",
+        "exampleTranslation":  "薬局で薬を買います。",
+        "importance":  2
+    },
+    {
+        "word":  "주사",
+        "meaning":  "注射",
+        "category":  "건강",
+        "example":  "주사를 맞았어요.",
+        "exampleTranslation":  "注射を打ちました。",
+        "importance":  1
+    },
+    {
+        "word":  "콧물",
+        "meaning":  "鼻水",
+        "category":  "건강",
+        "example":  "콧물이 나요.",
+        "exampleTranslation":  "鼻水が出ます。",
+        "importance":  1
+    },
+    {
+        "word":  "건강하다",
+        "meaning":  "健康だ",
+        "category":  "건강",
+        "example":  "할머니가 건강하세요.",
+        "exampleTranslation":  "祖母は健康です。",
+        "importance":  2
+    },
+    {
+        "word":  "쓰러지다",
+        "meaning":  "倒れる",
+        "category":  "건강",
+        "example":  "더워서 쓰러졌어요.",
+        "exampleTranslation":  "暑くて倒れました。",
+        "importance":  1
+    },
+    {
+        "word":  "토끼",
+        "meaning":  "うさぎ",
+        "category":  "동물",
+        "example":  "토끼가 빨라요.",
+        "exampleTranslation":  "うさぎが速いです。",
+        "importance":  1
+    },
+    {
+        "word":  "곰",
+        "meaning":  "熊",
+        "category":  "동물",
+        "example":  "곰이 무서워요.",
+        "exampleTranslation":  "熊が怖いです。",
+        "importance":  1
+    },
+    {
+        "word":  "호랑이",
+        "meaning":  "虎",
+        "category":  "동물",
+        "example":  "호랑이가 커요.",
+        "exampleTranslation":  "虎が大きいです。",
+        "importance":  1
+    },
+    {
+        "word":  "돼지",
+        "meaning":  "豚",
+        "category":  "동물",
+        "example":  "돼지가 귀여워요.",
+        "exampleTranslation":  "豚がかわいいです。",
+        "importance":  1
+    },
+    {
+        "word":  "소",
+        "meaning":  "牛",
+        "category":  "동물",
+        "example":  "소가 풀을 먹어요.",
+        "exampleTranslation":  "牛が草を食べます。",
+        "importance":  1
+    },
+    {
+        "word":  "닭",
+        "meaning":  "鶏",
+        "category":  "동물",
+        "example":  "닭이 울어요.",
+        "exampleTranslation":  "鶏が鳴きます。",
+        "importance":  1
+    },
+    {
+        "word":  "코끼리",
+        "meaning":  "象",
+        "category":  "동물",
+        "example":  "코끼리가 아주 커요.",
+        "exampleTranslation":  "象がとても大きいです。",
+        "importance":  1
+    },
+    {
+        "word":  "원숭이",
+        "meaning":  "猿",
+        "category":  "동물",
+        "example":  "원숭이가 나무에 있어요.",
+        "exampleTranslation":  "猿が木にいます。",
+        "importance":  1
+    },
+    {
+        "word":  "운동장",
+        "meaning":  "運動場・グラウンド",
+        "category":  "운동",
+        "example":  "운동장에서 뛰어요.",
+        "exampleTranslation":  "グラウンドで走ります。",
+        "importance":  2
+    },
+    {
+        "word":  "공",
+        "meaning":  "ボール",
+        "category":  "운동",
+        "example":  "공을 차요.",
+        "exampleTranslation":  "ボールを蹴ります。",
+        "importance":  2
+    },
+    {
+        "word":  "골프",
+        "meaning":  "ゴルフ",
+        "category":  "운동",
+        "example":  "주말에 골프를 쳐요.",
+        "exampleTranslation":  "週末にゴルフをします。",
+        "importance":  1
+    },
+    {
+        "word":  "스키",
+        "meaning":  "スキー",
+        "category":  "운동",
+        "example":  "겨울에 스키를 타요.",
+        "exampleTranslation":  "冬にスキーをします。",
+        "importance":  1
+    },
+    {
+        "word":  "달리기",
+        "meaning":  "ランニング・かけっこ",
+        "category":  "운동",
+        "example":  "아침에 달리기를 해요.",
+        "exampleTranslation":  "朝にランニングをします。",
+        "importance":  2
+    },
+    {
+        "word":  "경기",
+        "meaning":  "試合",
+        "category":  "운동",
+        "example":  "축구 경기를 봐요.",
+        "exampleTranslation":  "サッカーの試合を見ます。",
+        "importance":  2
+    },
+    {
+        "word":  "선수",
+        "meaning":  "選手",
+        "category":  "운동",
+        "example":  "그는 야구 선수예요.",
+        "exampleTranslation":  "彼は野球選手です。",
+        "importance":  2
+    },
+    {
+        "word":  "수영장",
+        "meaning":  "プール",
+        "category":  "운동",
+        "example":  "수영장에서 수영해요.",
+        "exampleTranslation":  "プールで泳ぎます。",
+        "importance":  2
+    },
+    {
+        "word":  "주부",
+        "meaning":  "主婦",
+        "category":  "직업",
+        "example":  "어머니는 주부예요.",
+        "exampleTranslation":  "母は主婦です。",
+        "importance":  2
+    },
+    {
+        "word":  "군인",
+        "meaning":  "軍人",
+        "category":  "직업",
+        "example":  "형은 군인이에요.",
+        "exampleTranslation":  "兄は軍人です。",
+        "importance":  1
+    },
+    {
+        "word":  "운전사",
+        "meaning":  "運転手",
+        "category":  "직업",
+        "example":  "버스 운전사가 친절해요.",
+        "exampleTranslation":  "バスの運転手が親切です。",
+        "importance":  1
+    },
+    {
+        "word":  "점원",
+        "meaning":  "店員",
+        "category":  "직업",
+        "example":  "점원이 도와줬어요.",
+        "exampleTranslation":  "店員が手伝ってくれました。",
+        "importance":  2
+    },
+    {
+        "word":  "기자",
+        "meaning":  "記者",
+        "category":  "직업",
+        "example":  "그분은 기자예요.",
+        "exampleTranslation":  "その方は記者です。",
+        "importance":  1
+    },
+    {
+        "word":  "변호사",
+        "meaning":  "弁護士",
+        "category":  "직업",
+        "example":  "친구가 변호사예요.",
+        "exampleTranslation":  "友達が弁護士です。",
+        "importance":  1
+    },
+    {
+        "word":  "미용사",
+        "meaning":  "美容師",
+        "category":  "직업",
+        "example":  "미용사가 머리를 잘라요.",
+        "exampleTranslation":  "美容師が髪を切ります。",
+        "importance":  1
+    },
+    {
+        "word":  "사장",
+        "meaning":  "社長",
+        "category":  "직업",
+        "example":  "사장님이 바쁘세요.",
+        "exampleTranslation":  "社長が忙しいです。",
+        "importance":  2
+    },
+    {
+        "word":  "벽",
+        "meaning":  "壁",
+        "category":  "집",
+        "example":  "벽에 그림이 있어요.",
+        "exampleTranslation":  "壁に絵があります。",
+        "importance":  1
+    },
+    {
+        "word":  "바닥",
+        "meaning":  "床",
+        "category":  "집",
+        "example":  "바닥을 닦아요.",
+        "exampleTranslation":  "床を拭きます。",
+        "importance":  2
+    },
+    {
+        "word":  "계단",
+        "meaning":  "階段",
+        "category":  "집",
+        "example":  "계단으로 올라가요.",
+        "exampleTranslation":  "階段で上がります。",
+        "importance":  2
+    },
+    {
+        "word":  "지붕",
+        "meaning":  "屋根",
+        "category":  "집",
+        "example":  "지붕이 빨간색이에요.",
+        "exampleTranslation":  "屋根が赤いです。",
+        "importance":  1
+    },
+    {
+        "word":  "이사",
+        "meaning":  "引っ越し",
+        "category":  "집",
+        "example":  "다음 달에 이사해요.",
+        "exampleTranslation":  "来月引っ越します。",
+        "importance":  2
+    },
+    {
+        "word":  "세탁기",
+        "meaning":  "洗濯機",
+        "category":  "집",
+        "example":  "세탁기로 빨래를 해요.",
+        "exampleTranslation":  "洗濯機で洗濯をします。",
+        "importance":  1
+    },
+    {
+        "word":  "가구",
+        "meaning":  "家具",
+        "category":  "집",
+        "example":  "가구를 샀어요.",
+        "exampleTranslation":  "家具を買いました。",
+        "importance":  1
+    },
+    {
+        "word":  "소파",
+        "meaning":  "ソファ",
+        "category":  "집",
+        "example":  "소파에 앉아요.",
+        "exampleTranslation":  "ソファに座ります。",
+        "importance":  1
+    },
+    {
+        "word":  "책장",
+        "meaning":  "本棚",
+        "category":  "집",
+        "example":  "책장에 책이 많아요.",
+        "exampleTranslation":  "本棚に本が多いです。",
+        "importance":  1
+    },
+    {
+        "word":  "그러나",
+        "meaning":  "しかし（書き言葉）",
+        "category":  "접속사",
+        "example":  "비쌌다. 그러나 샀다.",
+        "exampleTranslation":  "高かった。しかし買った。",
+        "importance":  2
+    },
+    {
+        "word":  "또",
+        "meaning":  "また・さらに",
+        "category":  "접속사",
+        "example":  "또 만나요.",
+        "exampleTranslation":  "また会いましょう。",
+        "importance":  3
+    },
+    {
+        "word":  "또는",
+        "meaning":  "または",
+        "category":  "접속사",
+        "example":  "커피 또는 차를 드세요.",
+        "exampleTranslation":  "コーヒーまたはお茶をどうぞ。",
+        "importance":  2
+    },
+    {
+        "word":  "그러니까",
+        "meaning":  "だから・つまり",
+        "category":  "접속사",
+        "example":  "늦었어요. 그러니까 빨리 가요.",
+        "exampleTranslation":  "遅れました。だから早く行きましょう。",
+        "importance":  2
+    },
+    {
+        "word":  "그럼",
+        "meaning":  "では・じゃあ",
+        "category":  "접속사",
+        "example":  "그럼 내일 봐요.",
+        "exampleTranslation":  "では明日会いましょう。",
+        "importance":  3
+    },
+    {
+        "word":  "숲",
+        "meaning":  "森",
+        "category":  "자연",
+        "example":  "숲에서 산책해요.",
+        "exampleTranslation":  "森で散歩します。",
+        "importance":  1
+    },
+    {
+        "word":  "풀",
+        "meaning":  "草",
+        "category":  "자연",
+        "example":  "풀이 푸르러요.",
+        "exampleTranslation":  "草が青々としています。",
+        "importance":  1
+    },
+    {
+        "word":  "잎",
+        "meaning":  "葉",
+        "category":  "자연",
+        "example":  "잎이 떨어져요.",
+        "exampleTranslation":  "葉が落ちます。",
+        "importance":  1
+    },
+    {
+        "word":  "땅",
+        "meaning":  "地面・土地",
+        "category":  "자연",
+        "example":  "땅이 넓어요.",
+        "exampleTranslation":  "土地が広いです。",
+        "importance":  2
+    },
+    {
+        "word":  "공기",
+        "meaning":  "空気",
+        "category":  "자연",
+        "example":  "공기가 맑아요.",
+        "exampleTranslation":  "空気がきれいです。",
+        "importance":  2
+    },
+    {
+        "word":  "바위",
+        "meaning":  "岩",
+        "category":  "자연",
+        "example":  "바위가 커요.",
+        "exampleTranslation":  "岩が大きいです。",
+        "importance":  1
+    },
+    {
+        "word":  "맑다",
+        "meaning":  "晴れている",
+        "category":  "날씨",
+        "example":  "오늘은 날씨가 맑아요.",
+        "exampleTranslation":  "今日は晴れています。",
+        "importance":  2
+    },
+    {
+        "word":  "흐리다",
+        "meaning":  "曇っている",
+        "category":  "날씨",
+        "example":  "하늘이 흐려요.",
+        "exampleTranslation":  "空が曇っています。",
+        "importance":  2
+    },
+    {
+        "word":  "안개",
+        "meaning":  "霧",
+        "category":  "날씨",
+        "example":  "아침에 안개가 꼈어요.",
+        "exampleTranslation":  "朝に霧がかかりました。",
+        "importance":  1
+    },
+    {
+        "word":  "기온",
+        "meaning":  "気温",
+        "category":  "날씨",
+        "example":  "기온이 높아요.",
+        "exampleTranslation":  "気温が高いです。",
+        "importance":  2
+    },
+    {
+        "word":  "장마",
+        "meaning":  "梅雨",
+        "category":  "날씨",
+        "example":  "여름에 장마가 있어요.",
+        "exampleTranslation":  "夏に梅雨があります。",
+        "importance":  1
+    },
+    {
+        "word":  "강아지",
+        "meaning":  "子犬",
+        "category":  "동물",
+        "example":  "강아지가 귀여워요.",
+        "exampleTranslation":  "子犬がかわいいです。",
+        "importance":  2
+    }
+]
