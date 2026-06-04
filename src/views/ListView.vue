@@ -120,13 +120,14 @@ function stars(n: Importance) {
     <div class="toolbar">
       <div class="group">
         <label>🟥 赤シート:</label>
-        <span
+        <button
           v-for="c in redactables"
           :key="c.key"
+          type="button"
           class="chip toggle"
           :class="{ active: isRedacted(c.key) }"
           @click="toggleRedact(c.key)"
-        >{{ c.label }}</span>
+        >{{ c.label }}</button>
         <template v-if="anyRedact">
           <button class="btn ghost sm" style="margin-left: 8px" @click="revealAll">全部めくる</button>
           <button class="btn ghost sm" @click="hideAll">全部戻す</button>
@@ -137,23 +138,25 @@ function stars(n: Importance) {
     <div class="toolbar">
       <div class="group">
         <label>カテゴリ:</label>
-        <span
+        <button
           v-for="c in categories"
           :key="c"
+          type="button"
           class="chip toggle"
           :class="{ active: selectedCategories.includes(c) }"
           @click="toggleCategory(c)"
-        >{{ c }}</span>
+        >{{ c }}</button>
       </div>
       <div class="group">
         <label>重要度:</label>
-        <span
+        <button
           v-for="i in [3, 2, 1] as Importance[]"
           :key="i"
+          type="button"
           class="chip toggle"
           :class="{ active: selectedImportance.includes(i) }"
           @click="toggleImportance(i)"
-        >{{ stars(i) }}</span>
+        >{{ stars(i) }}</button>
       </div>
     </div>
 

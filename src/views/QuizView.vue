@@ -125,37 +125,40 @@ const countOptions: Settings['quizCount'][] = [10, 20, 50, 'all']
       <div class="toolbar" style="padding-top:0">
         <div class="group">
           <label>方向:</label>
-          <span
+          <button
             v-for="o in directionOptions"
             :key="o.v"
+            type="button"
             class="chip toggle"
             :class="{ active: settings.quizDirection === o.v }"
             @click="settings.quizDirection = o.v"
-          >{{ o.label }}</span>
+          >{{ o.label }}</button>
         </div>
       </div>
 
       <div class="toolbar">
         <div class="group">
           <label>問題数:</label>
-          <span
+          <button
             v-for="c in countOptions"
             :key="String(c)"
+            type="button"
             class="chip toggle"
             :class="{ active: settings.quizCount === c }"
             @click="settings.quizCount = c"
-          >{{ c === 'all' ? '全部' : c + '問' }}</span>
+          >{{ c === 'all' ? '全部' : c + '問' }}</button>
         </div>
       </div>
 
       <div class="toolbar">
         <div class="group">
           <label>苦手優先:</label>
-          <span
+          <button
+            type="button"
             class="chip toggle"
             :class="{ active: settings.prioritizeWeak }"
             @click="settings.prioritizeWeak = !settings.prioritizeWeak"
-          >{{ settings.prioritizeWeak ? 'ON' : 'OFF' }}</span>
+          >{{ settings.prioritizeWeak ? 'ON' : 'OFF' }}</button>
         </div>
       </div>
 
@@ -164,26 +167,28 @@ const countOptions: Settings['quizCount'][] = [10, 20, 50, 'all']
       <div class="toolbar" style="padding-top:0">
         <div class="group">
           <label>カテゴリ(空=全部):</label>
-          <span
+          <button
             v-for="c in categories"
             :key="c"
+            type="button"
             class="chip toggle"
             :class="{ active: filterCategories.includes(c) }"
             @click="toggleCat(c)"
-          >{{ c }}</span>
+          >{{ c }}</button>
         </div>
       </div>
 
       <div class="toolbar">
         <div class="group">
           <label>重要度(空=全部):</label>
-          <span
+          <button
             v-for="i in [3,2,1] as Importance[]"
             :key="i"
+            type="button"
             class="chip toggle"
             :class="{ active: filterImportance.includes(i) }"
             @click="toggleImp(i)"
-          >{{ stars(i) }}</span>
+          >{{ stars(i) }}</button>
         </div>
       </div>
 

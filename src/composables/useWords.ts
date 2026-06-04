@@ -1,10 +1,19 @@
 import { ref, computed, watch } from 'vue'
-import type { Word } from '../types'
+import type { Word, Importance } from '../types'
 import { loadJSON, saveJSON } from '../utils/storage'
 import { newId } from '../utils/id'
 import { STARTER_WORDS } from '../data/starterWords'
 
 const STORAGE_KEY = 'words'
+
+function clampImportance(v: unknown): Importance {
+  const n = Number(v)
+  return n === 1 || n === 2 || n === 3 ? (n as Importance) : 2
+}
+
+function mergeKey(word: string, meaning: string): string {
+  return word.trim().normalize('NFC') + '|' + meaning.trim().normalize('NFC')
+}
 
 function seed(): Word[] {
   const now = Date.now()
@@ -78,21 +87,22 @@ export function useWords() {
         category: w.category ?? '기타',
         example: w.example,
         exampleTranslation: w.exampleTranslation,
-        importance: (w.importance ?? 2) as Word['importance'],
+        importance: clampImportance(w.importance),
         createdAt: w.createdAt ?? now + i,
         updatedAt: w.updatedAt ?? now + i,
       }))
       words.value = normalized
       return { added: normalized.length, total: normalized.length }
     } else {
-      const existing = new Map(words.value.map((w) => [w.word + '|' + w.meaning, w]))
+      const existing = new Map(words.value.map((w) => [mergeKey(w.word, w.meaning), w]))
       let added = 0
       const next = words.value.slice()
       const now = Date.now()
       for (let i = 0; i < valid.length; i++) {
         const w = valid[i]
-        const key = w.word + '|' + w.meaning
+        const key = mergeKey(w.word, w.meaning)
         if (existing.has(key)) continue
+        existing.set(key, w as Word)
         next.push({
           id: newId(),
           word: w.word,
@@ -100,7 +110,7 @@ export function useWords() {
           category: w.category ?? '기타',
           example: w.example,
           exampleTranslation: w.exampleTranslation,
-          importance: (w.importance ?? 2) as Word['importance'],
+          importance: clampImportance(w.importance),
           createdAt: now + i,
           updatedAt: now + i,
         })

@@ -50,6 +50,7 @@ export function useQuiz() {
   const currentIndex = ref(0)
   const userAnswers = ref<(string | null)[]>([])
   const finished = ref(false)
+  const lastPool = ref<Word[]>([])
 
   const current = computed(() => questions.value[currentIndex.value] ?? null)
   const total = computed(() => questions.value.length)
@@ -90,6 +91,7 @@ export function useQuiz() {
     currentIndex.value = 0
     userAnswers.value = new Array(questions.value.length).fill(null)
     finished.value = false
+    lastPool.value = setup.pool
   }
 
   function answer(choice: string) {
@@ -144,7 +146,8 @@ export function useQuiz() {
   function retryWrong() {
     const wrong = wrongQuestions.value.map((x) => x.q)
     if (wrong.length < 1) return
-    questions.value = wrong.map((q) => buildQuestion(q.word, questions.value.map((qq) => qq.word), q.direction))
+    const pool = lastPool.value.length > 0 ? lastPool.value : wrong.map((q) => q.word)
+    questions.value = wrong.map((q) => buildQuestion(q.word, pool, q.direction))
     currentIndex.value = 0
     userAnswers.value = new Array(questions.value.length).fill(null)
     finished.value = false
