@@ -665,7 +665,7 @@
   },
   {
     "word": "일",
-    "meaning": "1（イル）",
+    "meaning": "1",
     "category": "숫자",
     "example": "일 번 버스를 타요.",
     "exampleTranslation": "1番バスに乗ります。",
@@ -674,7 +674,7 @@
   },
   {
     "word": "이",
-    "meaning": "2（イ）",
+    "meaning": "2",
     "category": "숫자",
     "example": "이 층에 있어요.",
     "exampleTranslation": "2階にあります。",
@@ -683,7 +683,7 @@
   },
   {
     "word": "삼",
-    "meaning": "3（サム）",
+    "meaning": "3",
     "category": "숫자",
     "example": "삼 월에 만나요.",
     "exampleTranslation": "3月に会います。",
@@ -692,7 +692,7 @@
   },
   {
     "word": "사",
-    "meaning": "4（サ）",
+    "meaning": "4",
     "category": "숫자",
     "example": "사 학년이에요.",
     "exampleTranslation": "4年生です。",
@@ -701,7 +701,7 @@
   },
   {
     "word": "오",
-    "meaning": "5（オ）",
+    "meaning": "5",
     "category": "숫자",
     "example": "오 분 걸려요.",
     "exampleTranslation": "5分かかります。",
@@ -710,7 +710,7 @@
   },
   {
     "word": "육",
-    "meaning": "6（ユク）",
+    "meaning": "6",
     "category": "숫자",
     "example": "육 개월 배웠어요.",
     "exampleTranslation": "6か月学びました。",
@@ -719,7 +719,7 @@
   },
   {
     "word": "칠",
-    "meaning": "7（チル）",
+    "meaning": "7",
     "category": "숫자",
     "example": "칠 시에 일어나요.",
     "exampleTranslation": "7時に起きます。",
@@ -728,7 +728,7 @@
   },
   {
     "word": "팔",
-    "meaning": "8（パル）",
+    "meaning": "8",
     "category": "숫자",
     "example": "팔 월은 더워요.",
     "exampleTranslation": "8月は暑いです。",
@@ -737,7 +737,7 @@
   },
   {
     "word": "구",
-    "meaning": "9（ク）",
+    "meaning": "9",
     "category": "숫자",
     "example": "구 번 출구로 나와요.",
     "exampleTranslation": "9番出口から出ます。",
@@ -746,7 +746,7 @@
   },
   {
     "word": "십",
-    "meaning": "10（シプ）",
+    "meaning": "10",
     "category": "숫자",
     "example": "십 분만 기다려요.",
     "exampleTranslation": "10分だけ待ちます。",
@@ -755,7 +755,7 @@
   },
   {
     "word": "백",
-    "meaning": "100（ペク）",
+    "meaning": "100",
     "category": "숫자",
     "example": "백 명이 왔어요.",
     "exampleTranslation": "100人が来ました。",
@@ -764,7 +764,7 @@
   },
   {
     "word": "천",
-    "meaning": "1000（チョン）",
+    "meaning": "1000",
     "category": "숫자",
     "example": "천 원이에요.",
     "exampleTranslation": "1000ウォンです。",
@@ -773,7 +773,7 @@
   },
   {
     "word": "만",
-    "meaning": "10000（マン）",
+    "meaning": "10000",
     "category": "숫자",
     "example": "만 원을 냈어요.",
     "exampleTranslation": "1万ウォンを払いました。",
