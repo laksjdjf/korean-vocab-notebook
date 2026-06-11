@@ -350,6 +350,24 @@ table.wordtable th {
   transition: all .15s;
 }
 
+.quiz-choice-content {
+  display: grid;
+  gap: 4px;
+  justify-items: center;
+}
+
+.quiz-choice-label {
+  overflow-wrap: anywhere;
+}
+
+.quiz-choice-detail {
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
 .quiz-choice:hover:not(:disabled) {
   border-color: var(--accent);
   background: var(--accent-soft);
@@ -361,10 +379,18 @@ table.wordtable th {
   color: var(--ok);
 }
 
+.quiz-choice.correct .quiz-choice-detail {
+  color: #15803d;
+}
+
 .quiz-choice.wrong {
   background: var(--ng-soft);
   border-color: var(--ng);
   color: var(--ng);
+}
+
+.quiz-choice.wrong .quiz-choice-detail {
+  color: #b91c1c;
 }
 
 .quiz-choice:disabled {

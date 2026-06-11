@@ -7,8 +7,13 @@ export type QuizQuestion = {
   word: Word
   direction: QuizDirection
   prompt: string
-  choices: string[]
+  choices: QuizChoice[]
   answer: string
+}
+
+export type QuizChoice = {
+  word: Word
+  label: string
 }
 
 export type QuizSetup = {
@@ -39,8 +44,10 @@ function buildQuestion(target: Word, allPool: Word[], direction: QuizDirection):
   collect(sameCat)
   if (distractorPool.length < 3) collect(others)
 
-  const distractors = distractorPool.slice(0, 3).map((w) => (direction === 'ko-ja' ? w.meaning : w.word))
-  const choices = shuffle([answer, ...distractors])
+  const choices = shuffle([target, ...distractorPool.slice(0, 3)]).map((w) => ({
+    word: w,
+    label: direction === 'ko-ja' ? w.meaning : w.word,
+  }))
   return { word: target, direction, prompt, choices, answer }
 }
 

@@ -5,6 +5,7 @@ import { useSettings } from '../composables/useSettings'
 import { useQuiz } from '../composables/useQuiz'
 import { useSpeech } from '../composables/useSpeech'
 import type { Importance, Settings } from '../types'
+import type { QuizChoice } from '../composables/useQuiz'
 
 const { words, categories } = useWords()
 const { settings } = useSettings()
@@ -51,11 +52,11 @@ function start() {
   phase.value = 'play'
 }
 
-function pick(choice: string) {
+function pick(choice: QuizChoice) {
   if (showFeedback.value) return
-  picked.value = choice
+  picked.value = choice.label
   showFeedback.value = true
-  answer(choice)
+  answer(choice.label)
 }
 
 function next() {
@@ -91,13 +92,19 @@ function stars(n: Importance) {
   return '★'.repeat(n) + '☆'.repeat(3 - n)
 }
 
-function choiceClass(c: string) {
+function choiceClass(choice: QuizChoice) {
   if (!showFeedback.value) return ''
   const q = current.value
   if (!q) return ''
-  if (c === q.answer) return 'correct'
-  if (c === picked.value) return 'wrong'
+  if (choice.label === q.answer) return 'correct'
+  if (choice.label === picked.value) return 'wrong'
   return ''
+}
+
+function choiceDetail(choice: QuizChoice) {
+  const q = current.value
+  if (!q) return ''
+  return q.direction === 'ja-ko' ? choice.word.meaning : choice.word.word
 }
 
 const progressPct = computed(() =>
@@ -217,13 +224,20 @@ const countOptions: Settings['quizCount'][] = [10, 20, 50, 'all']
 
       <div class="quiz-choices">
         <button
-          v-for="(c, i) in current.choices"
-          :key="i"
+          v-for="c in current.choices"
+          :key="c.word.id"
           class="quiz-choice"
           :class="choiceClass(c)"
           :disabled="showFeedback"
           @click="pick(c)"
-        >{{ c }}</button>
+        >
+          <span class="quiz-choice-content">
+            <span class="quiz-choice-label">{{ c.label }}</span>
+            <span v-if="showFeedback" class="quiz-choice-detail">
+              {{ choiceDetail(c) }}
+            </span>
+          </span>
+        </button>
       </div>
 
       <div v-if="showFeedback" class="example" style="margin-top:16px">
