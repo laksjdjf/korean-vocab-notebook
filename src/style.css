@@ -332,6 +332,22 @@ table.wordtable th {
 
 .quiz-prompt.ko { color: var(--accent); }
 
+.quiz-prompt.cloze {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.6;
+  padding: 20px 16px;
+  word-break: keep-all;
+}
+
+.cloze-caption {
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-muted);
+  font-weight: 600;
+  margin: 4px 0 -8px;
+}
+
 .quiz-choices {
   display: grid;
   grid-template-columns: 1fr 1fr;

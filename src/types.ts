@@ -39,6 +39,7 @@ export type RedactKey = 'word' | 'meaning' | 'example'
 
 export type Settings = {
   redactedColumns: RedactKey[]
+  quizType: 'meaning' | 'cloze'
   quizDirection: QuizDirection | 'mixed'
   quizCount: 10 | 20 | 50 | 'all'
   prioritizeWeak: boolean
@@ -47,6 +48,7 @@ export type Settings = {
 
 export const DEFAULT_SETTINGS: Settings = {
   redactedColumns: [],
+  quizType: 'meaning',
   quizDirection: 'ko-ja',
   quizCount: 10,
   prioritizeWeak: false,

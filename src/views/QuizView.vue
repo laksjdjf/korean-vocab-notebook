@@ -7,7 +7,7 @@ import { useSpeech } from '../composables/useSpeech'
 import { useSrs } from '../composables/useSrs'
 import { useUi } from '../composables/useUi'
 import type { Importance, Settings } from '../types'
-import { SKIP_ANSWER, type QuizChoice } from '../composables/useQuiz'
+import { SKIP_ANSWER, isClozeable, type QuizChoice } from '../composables/useQuiz'
 
 const { words, categories } = useWords()
 const { settings } = useSettings()
@@ -25,6 +25,7 @@ function startReview() {
   startQuiz({
     pool: words.value, // distractors drawn from the whole deck
     targets: due, // already ordered soonest-due first
+    type: settings.value.quizType,
     direction: settings.value.quizDirection,
     count: settings.value.quizCount,
     prioritizeWeak: false,
@@ -66,12 +67,20 @@ const pool = computed(() =>
   }),
 )
 
-const canStart = computed(() => pool.value.length >= 4)
+const isCloze = computed(() => settings.value.quizType === 'cloze')
+
+// For cloze, only words whose example contains them are usable.
+const effectivePool = computed(() =>
+  isCloze.value ? pool.value.filter(isClozeable) : pool.value,
+)
+
+const canStart = computed(() => effectivePool.value.length >= 4)
 
 function start() {
   if (!canStart.value) return
   startQuiz({
     pool: pool.value,
+    type: settings.value.quizType,
     direction: settings.value.quizDirection,
     count: settings.value.quizCount,
     prioritizeWeak: settings.value.prioritizeWeak,
@@ -144,6 +153,8 @@ function choiceClass(choice: QuizChoice) {
 function choiceDetail(choice: QuizChoice) {
   const q = current.value
   if (!q) return ''
+  // cloze choices are Korean words → reveal their meanings after answering
+  if (q.type === 'cloze') return choice.word.meaning
   return q.direction === 'ja-ko' ? choice.word.meaning : choice.word.word
 }
 
@@ -184,6 +195,24 @@ const countOptions: Settings['quizCount'][] = [10, 20, 50, 'all']
       <h2 style="margin-top:0">クイズ設定</h2>
 
       <div class="toolbar" style="padding-top:0">
+        <div class="group">
+          <label>出題形式:</label>
+          <button
+            type="button"
+            class="chip toggle"
+            :class="{ active: settings.quizType === 'meaning' }"
+            @click="settings.quizType = 'meaning'"
+          >意味</button>
+          <button
+            type="button"
+            class="chip toggle"
+            :class="{ active: settings.quizType === 'cloze' }"
+            @click="settings.quizType = 'cloze'"
+          >穴埋め</button>
+        </div>
+      </div>
+
+      <div v-if="!isCloze" class="toolbar" style="padding-top:0">
         <div class="group">
           <label>方向:</label>
           <button
@@ -253,7 +282,10 @@ const countOptions: Settings['quizCount'][] = [10, 20, 50, 'all']
         </div>
       </div>
 
-      <p class="example">対象単語: {{ pool.length }} 語</p>
+      <p class="example">
+        対象単語: {{ effectivePool.length }} 語
+        <span v-if="isCloze">（例文がある語のみ）</span>
+      </p>
 
       <button class="btn" :disabled="!canStart" @click="start">スタート</button>
       <span v-if="!canStart" class="example" style="margin-left:10px">最低4語必要です</span>
@@ -267,10 +299,14 @@ const countOptions: Settings['quizCount'][] = [10, 20, 50, 'all']
         <div class="bar"><div :style="{ width: progressPct + '%' }"></div></div>
       </div>
 
-      <div class="quiz-prompt" :class="{ ko: current.direction === 'ko-ja' }">
+      <p v-if="current.type === 'cloze'" class="cloze-caption">( ⬚ ) に入る言葉は？</p>
+      <div
+        class="quiz-prompt"
+        :class="{ ko: current.type !== 'cloze' && current.direction === 'ko-ja', cloze: current.type === 'cloze' }"
+      >
         {{ current.prompt }}
         <button
-          v-if="speechSupported && current.direction === 'ko-ja'"
+          v-if="speechSupported && current.type !== 'cloze' && current.direction === 'ko-ja'"
           class="speak-btn"
           @click="speak(current.prompt)"
         >♪</button>
