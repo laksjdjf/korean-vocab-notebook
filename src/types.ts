@@ -22,6 +22,19 @@ export type QuizResult = {
   at: number
 }
 
+export type SrsCard = {
+  reps: number        // consecutive correct reviews
+  interval: number    // current interval in days
+  ease: number        // ease factor (SM-2)
+  due: number         // timestamp (ms) when next due
+  lapses: number      // times forgotten
+  lastReviewed: number
+}
+
+export type SrsStatus = 'new' | 'learning' | 'mastered'
+
+export type DailyStat = { answered: number; correct: number }
+
 export type RedactKey = 'word' | 'meaning' | 'example'
 
 export type Settings = {

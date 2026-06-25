@@ -5350,14 +5350,6 @@
     "importance": 3
   },
   {
-    "word": "일주일 만이네요",
-    "meaning": "一週間ぶりですね",
-    "category": "인사",
-    "example": "벌써 일주일 만이네요.",
-    "exampleTranslation": "もう一週間ぶりですね。",
-    "importance": 2
-  },
-  {
     "word": "잘 지냈어요",
     "meaning": "元気でしたか",
     "category": "인사",
@@ -5598,14 +5590,6 @@
     "hanja": "葡萄"
   },
   {
-    "word": "쿠키",
-    "meaning": "クッキー",
-    "category": "음식",
-    "example": "친구와 쿠키를 만들어요.",
-    "exampleTranslation": "友達とクッキーを作ります。",
-    "importance": 2
-  },
-  {
     "word": "과자",
     "meaning": "お菓子",
     "category": "음식",
@@ -5621,22 +5605,6 @@
     "example": "오늘 점심은 카레예요.",
     "exampleTranslation": "今日の昼ごはんはカレーです。",
     "importance": 2
-  },
-  {
-    "word": "초콜레이트",
-    "meaning": "チョコレート",
-    "category": "음식",
-    "example": "선물로 초콜레이트를 줬어요.",
-    "exampleTranslation": "プレゼントにチョコレートをあげました。",
-    "importance": 2
-  },
-  {
-    "word": "초코바",
-    "meaning": "チョコバー",
-    "category": "음식",
-    "example": "배가 고파서 초코바를 먹었어요.",
-    "exampleTranslation": "お腹が空いてチョコバーを食べました。",
-    "importance": 1
   },
   {
     "word": "떡볶이",
@@ -5671,14 +5639,6 @@
     "importance": 1
   },
   {
-    "word": "매운음식",
-    "meaning": "辛い食べ物",
-    "category": "음식",
-    "example": "저는 매운음식을 잘 먹어요.",
-    "exampleTranslation": "私は辛い食べ物をよく食べます。",
-    "importance": 2
-  },
-  {
     "word": "소주",
     "meaning": "焼酎",
     "category": "음식",
@@ -5686,14 +5646,6 @@
     "exampleTranslation": "友達と焼酎を一杯飲みました。",
     "importance": 2,
     "hanja": "焼酒"
-  },
-  {
-    "word": "하이볼",
-    "meaning": "ハイボール",
-    "category": "음식",
-    "example": "오늘은 하이볼을 마시고 싶어요.",
-    "exampleTranslation": "今日はハイボールが飲みたいです。",
-    "importance": 1
   },
   {
     "word": "와인",
@@ -5719,30 +5671,6 @@
     "example": "점심에 햄버거를 먹었어요.",
     "exampleTranslation": "昼にハンバーガーを食べました。",
     "importance": 3
-  },
-  {
-    "word": "함바그",
-    "meaning": "ハンバーグ",
-    "category": "음식",
-    "example": "오늘 저녁은 함바그예요.",
-    "exampleTranslation": "今日の夕食はハンバーグです。",
-    "importance": 1
-  },
-  {
-    "word": "소세지",
-    "meaning": "ソーセージ",
-    "category": "음식",
-    "example": "아침에 소세지를 구워 먹었어요.",
-    "exampleTranslation": "朝にソーセージを焼いて食べました。",
-    "importance": 2
-  },
-  {
-    "word": "바나나 빵",
-    "meaning": "バナナパン",
-    "category": "음식",
-    "example": "이 카페의 바나나 빵이 맛있어요.",
-    "exampleTranslation": "このカフェのバナナパンがおいしいです。",
-    "importance": 1
   },
   {
     "word": "덮밥",
@@ -5801,23 +5729,6 @@
     "example": "저녁에 치킨을 시켰어요.",
     "exampleTranslation": "夕方にチキンを注文しました。",
     "importance": 3
-  },
-  {
-    "word": "송이버섯",
-    "meaning": "松茸",
-    "category": "음식",
-    "example": "가을에는 송이버섯이 나와요.",
-    "exampleTranslation": "秋には松茸が出てきます。",
-    "importance": 1
-  },
-  {
-    "word": "탄산수",
-    "meaning": "炭酸水",
-    "category": "음식",
-    "example": "저는 탄산수를 좋아해요.",
-    "exampleTranslation": "私は炭酸水が好きです。",
-    "importance": 2,
-    "hanja": "炭酸水"
   },
   {
     "word": "일주일",
@@ -6020,14 +5931,6 @@
     "importance": 2
   },
   {
-    "word": "센치",
-    "meaning": "〜センチ",
-    "category": "숫자",
-    "example": "키가 십 센치 자랐어요.",
-    "exampleTranslation": "身長が10センチ伸びました。",
-    "importance": 1
-  },
-  {
     "word": "인분",
     "meaning": "〜人前",
     "category": "숫자",
@@ -6110,15 +6013,6 @@
     "importance": 3
   },
   {
-    "word": "혈관",
-    "meaning": "血管",
-    "category": "몸",
-    "example": "혈관이 막혔어요.",
-    "exampleTranslation": "血管が詰まりました。",
-    "importance": 1,
-    "hanja": "血管"
-  },
-  {
     "word": "키",
     "meaning": "身長",
     "category": "몸",
@@ -6189,15 +6083,6 @@
     "example": "아저씨, 여기 물 좀 주세요.",
     "exampleTranslation": "おじさん、ここに水をください。",
     "importance": 2
-  },
-  {
-    "word": "친형",
-    "meaning": "お兄さん(男性から男性へ)",
-    "category": "가족",
-    "example": "우리 친형은 군인이에요.",
-    "exampleTranslation": "うちの実の兄は軍人です。",
-    "importance": 1,
-    "hanja": "親兄"
   },
   {
     "word": "밑",
@@ -6285,14 +6170,6 @@
     "importance": 1
   },
   {
-    "word": "너구리",
-    "meaning": "タヌキ",
-    "category": "동물",
-    "example": "산에서 너구리를 봤어요.",
-    "exampleTranslation": "山でタヌキを見ました。",
-    "importance": 1
-  },
-  {
     "word": "모기",
     "meaning": "蚊",
     "category": "동물",
@@ -6360,15 +6237,6 @@
     "hanja": "単語"
   },
   {
-    "word": "출신",
-    "meaning": "出身",
-    "category": "일상",
-    "example": "저는 서울 출신이에요.",
-    "exampleTranslation": "私はソウル出身です。",
-    "importance": 2,
-    "hanja": "出身"
-  },
-  {
     "word": "꿈",
     "meaning": "夢",
     "category": "일상",
@@ -6393,15 +6261,6 @@
     "exampleTranslation": "私の趣味は読書です。",
     "importance": 2,
     "hanja": "読書"
-  },
-  {
-    "word": "미소",
-    "meaning": "微笑み",
-    "category": "일상",
-    "example": "그녀는 미소가 예뻐요.",
-    "exampleTranslation": "彼女は微笑みがきれいです。",
-    "importance": 1,
-    "hanja": "微笑"
   },
   {
     "word": "주소",
@@ -6453,15 +6312,6 @@
     "exampleTranslation": "遅れた理由は何ですか？",
     "importance": 3,
     "hanja": "理由"
-  },
-  {
-    "word": "여유",
-    "meaning": "余裕",
-    "category": "일상",
-    "example": "오늘은 시간 여유가 있어요.",
-    "exampleTranslation": "今日は時間に余裕があります。",
-    "importance": 2,
-    "hanja": "余裕"
   },
   {
     "word": "왕복",
@@ -6571,15 +6421,6 @@
     "hanja": "生活"
   },
   {
-    "word": "찬장",
-    "meaning": "食器棚",
-    "category": "집",
-    "example": "컵은 찬장에 있어요.",
-    "exampleTranslation": "コップは食器棚にあります。",
-    "importance": 1,
-    "hanja": "饌欌"
-  },
-  {
     "word": "반",
     "meaning": "半",
     "category": "일상",
@@ -6605,15 +6446,6 @@
     "exampleTranslation": "うちの向かい側に公園があります。",
     "importance": 2,
     "hanja": "便"
-  },
-  {
-    "word": "상대편",
-    "meaning": "相手側",
-    "category": "위치",
-    "example": "상대편 선수가 아주 빨라요.",
-    "exampleTranslation": "相手側の選手がとても速いです。",
-    "importance": 1,
-    "hanja": "相対便"
   },
   {
     "word": "천장",
@@ -6659,30 +6491,6 @@
     "importance": 2
   },
   {
-    "word": "코디",
-    "meaning": "コーディネート",
-    "category": "쇼핑",
-    "example": "오늘 코디가 멋져요.",
-    "exampleTranslation": "今日のコーディネートが素敵です。",
-    "importance": 1
-  },
-  {
-    "word": "트라우마",
-    "meaning": "トラウマ",
-    "category": "감정",
-    "example": "그 일이 트라우마가 됐어요.",
-    "exampleTranslation": "その出来事がトラウマになりました。",
-    "importance": 1
-  },
-  {
-    "word": "웨이터",
-    "meaning": "ウェイター",
-    "category": "직업",
-    "example": "웨이터가 물을 가져왔어요.",
-    "exampleTranslation": "ウェイターが水を持ってきました。",
-    "importance": 1
-  },
-  {
     "word": "마치",
     "meaning": "まるで",
     "category": "부사",
@@ -6707,15 +6515,6 @@
     "exampleTranslation": "今、友達と通話中です。",
     "importance": 2,
     "hanja": "通話"
-  },
-  {
-    "word": "직무",
-    "meaning": "職務",
-    "category": "직업",
-    "example": "새로운 직무를 맡았어요.",
-    "exampleTranslation": "新しい職務を担当しました。",
-    "importance": 1,
-    "hanja": "職務"
   },
   {
     "word": "출구",
@@ -6754,62 +6553,12 @@
     "hanja": "学年"
   },
   {
-    "word": "토끼띠",
-    "meaning": "ウサギ年(卯年)",
-    "category": "일상",
-    "example": "저는 토끼띠예요.",
-    "exampleTranslation": "私はうさぎ年です。",
-    "importance": 1
-  },
-  {
-    "word": "돼지띠",
-    "meaning": "亥年生まれ(猪年)",
-    "category": "일상",
-    "example": "제 동생은 돼지띠예요.",
-    "exampleTranslation": "私の弟はいのしし年です。",
-    "importance": 1
-  },
-  {
-    "word": "라디오",
-    "meaning": "ラジオ",
-    "category": "일상",
-    "example": "아침에 라디오를 들어요.",
-    "exampleTranslation": "朝にラジオを聞きます。",
-    "importance": 2
-  },
-  {
     "word": "맛집",
     "meaning": "おいしい店",
     "category": "음식",
     "example": "여기 유명한 맛집이에요.",
     "exampleTranslation": "ここは有名なおいしい店です。",
     "importance": 2
-  },
-  {
-    "word": "스몰토크",
-    "meaning": "スモールトーク",
-    "category": "일상",
-    "example": "엘리베이터에서 스몰토크를 했어요.",
-    "exampleTranslation": "エレベーターでスモールトークをしました。",
-    "importance": 1
-  },
-  {
-    "word": "빈도",
-    "meaning": "頻度",
-    "category": "일상",
-    "example": "운동하는 빈도가 높아요.",
-    "exampleTranslation": "運動する頻度が高いです。",
-    "importance": 1,
-    "hanja": "頻度"
-  },
-  {
-    "word": "능력",
-    "meaning": "能力",
-    "category": "일상",
-    "example": "그는 능력이 뛰어나요.",
-    "exampleTranslation": "彼は能力が優れています。",
-    "importance": 2,
-    "hanja": "能力"
   },
   {
     "word": "슈퍼마켓",
@@ -6886,14 +6635,6 @@
     "importance": 2
   },
   {
-    "word": "샴푸",
-    "meaning": "シャンプー",
-    "category": "일상",
-    "example": "샴푸로 머리를 감아요.",
-    "exampleTranslation": "シャンプーで髪を洗います。",
-    "importance": 2
-  },
-  {
     "word": "태양",
     "meaning": "太陽",
     "category": "자연",
@@ -6956,15 +6697,6 @@
     "importance": 1
   },
   {
-    "word": "재택",
-    "meaning": "在宅(勤務)",
-    "category": "직업",
-    "example": "오늘은 재택으로 일해요.",
-    "exampleTranslation": "今日は在宅で働きます。",
-    "importance": 1,
-    "hanja": "在宅"
-  },
-  {
     "word": "부자",
     "meaning": "お金持ち",
     "category": "일상",
@@ -6974,24 +6706,6 @@
     "hanja": "富者"
   },
   {
-    "word": "개발자",
-    "meaning": "エンジニア・開発者",
-    "category": "직업",
-    "example": "제 친구는 게임 개발자예요.",
-    "exampleTranslation": "私の友達はゲーム開発者です。",
-    "importance": 1,
-    "hanja": "開発者"
-  },
-  {
-    "word": "역전",
-    "meaning": "逆転",
-    "category": "일상",
-    "example": "마지막에 역전으로 이겼어요.",
-    "exampleTranslation": "最後に逆転で勝ちました。",
-    "importance": 1,
-    "hanja": "逆転"
-  },
-  {
     "word": "전철",
     "meaning": "電車",
     "category": "교통",
@@ -6999,14 +6713,6 @@
     "exampleTranslation": "電車に乗って学校に行きます。",
     "importance": 3,
     "hanja": "電鉄"
-  },
-  {
-    "word": "월드컵",
-    "meaning": "ワールドカップ",
-    "category": "운동",
-    "example": "월드컵 경기를 같이 봤어요.",
-    "exampleTranslation": "ワールドカップの試合を一緒に見ました。",
-    "importance": 1
   },
   {
     "word": "보통",
@@ -7042,14 +6748,6 @@
     "importance": 1
   },
   {
-    "word": "물티슈",
-    "meaning": "ウェットティッシュ",
-    "category": "일상",
-    "example": "물티슈로 손을 닦았어요.",
-    "exampleTranslation": "ウェットティッシュで手を拭きました。",
-    "importance": 1
-  },
-  {
     "word": "앞치마",
     "meaning": "エプロン",
     "category": "일상",
@@ -7073,5 +6771,14 @@
     "example": "주말에 카페에서 아르바이트를 해요.",
     "exampleTranslation": "週末にカフェでアルバイトをします。",
     "importance": 2
+  },
+  {
+    "word": "출신",
+    "meaning": "出身",
+    "category": "일상",
+    "example": "저는 서울 출신이에요.",
+    "exampleTranslation": "私はソウル出身です。",
+    "importance": 2,
+    "hanja": "出身"
   }
 ]

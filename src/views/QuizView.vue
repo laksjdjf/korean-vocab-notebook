@@ -1,16 +1,45 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { useWords } from '../composables/useWords'
 import { useSettings } from '../composables/useSettings'
 import { useQuiz } from '../composables/useQuiz'
 import { useSpeech } from '../composables/useSpeech'
+import { useSrs } from '../composables/useSrs'
+import { useUi } from '../composables/useUi'
 import type { Importance, Settings } from '../types'
-import type { QuizChoice } from '../composables/useQuiz'
+import { SKIP_ANSWER, type QuizChoice } from '../composables/useQuiz'
 
 const { words, categories } = useWords()
 const { settings } = useSettings()
 const { current, currentIndex, total, score, wrongQuestions, start: startQuiz, answer, next: nextQuiz, restart, retryWrong, buildPool } = useQuiz()
 const { speak, supported: speechSupported } = useSpeech()
+const { dueWords, counts } = useSrs()
+const { pendingReview } = useUi()
+
+const dueList = computed(() => dueWords(words.value))
+const srsCounts = computed(() => counts(words.value))
+
+function startReview() {
+  const due = dueList.value
+  if (due.length === 0) return
+  startQuiz({
+    pool: words.value, // distractors drawn from the whole deck
+    targets: due, // already ordered soonest-due first
+    direction: settings.value.quizDirection,
+    count: settings.value.quizCount,
+    prioritizeWeak: false,
+  })
+  picked.value = null
+  showFeedback.value = false
+  phase.value = 'play'
+}
+
+onMounted(() => {
+  if (pendingReview.value) {
+    pendingReview.value = false
+    if (dueList.value.length > 0) startReview()
+  }
+})
 
 const phase = ref<'setup' | 'play' | 'result'>('setup')
 const filterCategories = ref<string[]>([])
@@ -57,6 +86,17 @@ function pick(choice: QuizChoice) {
   picked.value = choice.label
   showFeedback.value = true
   answer(choice.label)
+}
+
+function pass() {
+  if (showFeedback.value) return
+  picked.value = SKIP_ANSWER // counts as wrong; reveals the correct answer
+  showFeedback.value = true
+  answer(SKIP_ANSWER)
+}
+
+function pickedLabel(p: string | null) {
+  return p === SKIP_ANSWER ? 'パス' : p
 }
 
 function next() {
@@ -126,6 +166,20 @@ const countOptions: Settings['quizCount'][] = [10, 20, 50, 'all']
 
 <template>
   <section v-if="phase === 'setup'">
+    <div class="card srs-card" style="margin-bottom:12px">
+      <div class="srs-head">
+        <h2 style="margin:0">🔁 今日の復習</h2>
+        <span class="srs-due-badge" :class="{ zero: dueList.length === 0 }">{{ dueList.length }} 語</span>
+      </div>
+      <p class="example" style="margin:6px 0 12px">
+        間隔反復で出題時期がきた単語です。
+        <span v-if="srsCounts.new > 0">未学習 {{ srsCounts.new }} 語・</span>覚えた {{ srsCounts.mastered }} 語
+      </p>
+      <button class="btn" :disabled="dueList.length === 0" @click="startReview">
+        {{ dueList.length === 0 ? '復習はありません' : '復習する' }}
+      </button>
+    </div>
+
     <div class="card">
       <h2 style="margin-top:0">クイズ設定</h2>
 
@@ -240,7 +294,12 @@ const countOptions: Settings['quizCount'][] = [10, 20, 50, 'all']
         </button>
       </div>
 
+      <button v-if="!showFeedback" class="btn ghost pass-btn" @click="pass">
+        パス（わからない）
+      </button>
+
       <div v-if="showFeedback" class="example" style="margin-top:16px">
+        <span v-if="picked === SKIP_ANSWER" class="pass-tag">パス</span>
         <strong class="ko-word">{{ current.word.word }}</strong> — {{ current.word.meaning }}
         <div v-if="current.word.example">
           {{ current.word.example }}
@@ -272,7 +331,7 @@ const countOptions: Settings['quizCount'][] = [10, 20, 50, 'all']
         <ul style="padding-left:20px;line-height:1.7">
           <li v-for="x in wrongQuestions" :key="x.q.word.id">
             <strong class="ko-word">{{ x.q.word.word }}</strong> — {{ x.q.word.meaning }}
-            <span class="example">（あなた: {{ x.picked }}）</span>
+            <span class="example">（あなた: {{ pickedLabel(x.picked) }}）</span>
           </li>
         </ul>
       </div>
