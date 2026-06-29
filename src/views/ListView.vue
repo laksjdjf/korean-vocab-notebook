@@ -222,6 +222,12 @@ function stars(n: Importance) {
                   <div>{{ w.example }}</div>
                   <div v-if="w.exampleTranslation" class="example">{{ w.exampleTranslation }}</div>
                 </span>
+                <button
+                  v-if="speechSupported && (!isRedacted('example') || isRevealed(w.id, 'example'))"
+                  class="speak-btn"
+                  title="例文を再生"
+                  @click.stop="speak(w.example)"
+                >♪</button>
               </template>
               <span v-else class="example">—</span>
             </td>

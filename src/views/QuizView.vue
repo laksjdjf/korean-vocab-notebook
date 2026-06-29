@@ -339,6 +339,12 @@ const countOptions: Settings['quizCount'][] = [10, 20, 50, 'all']
         <strong class="ko-word">{{ current.word.word }}</strong> — {{ current.word.meaning }}
         <div v-if="current.word.example">
           {{ current.word.example }}
+          <button
+            v-if="speechSupported"
+            class="speak-btn"
+            title="例文を再生"
+            @click="speak(current.word.example)"
+          >♪</button>
           <span v-if="current.word.exampleTranslation">／ {{ current.word.exampleTranslation }}</span>
         </div>
       </div>

@@ -46,7 +46,7 @@ export function useSpeech() {
     return pickFemale(voices.value)
   }
 
-  function speak(text: string) {
+  function speak(text?: string) {
     if (!supported || !text) return
     window.speechSynthesis.cancel()
     const u = new SpeechSynthesisUtterance(text)
